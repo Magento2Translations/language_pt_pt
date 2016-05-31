@@ -24,7 +24,7 @@ To install this language package manually you need access to your server file sy
 To use this language pack login to your admin panel and goto `Stores -> Configuration -> General > General -> Locale options` and set the '*locale*' option as '*European Portuguese (Portugal)*'
 
 # Contribute
-To help push the '*European Portuguese (português europeu) Magento2 Language Pack (pt_PT)*' forward please goto [this](https://crowdin.com/project/magento-2/pt) crowdin page and translate the lines.
+To help push the '*European Portuguese (português europeu) Magento2 Language Pack (pt_PT)*' forward please goto [this](https://crowdin.com/project/magento-2/pt-PT) crowdin page and translate the lines.
 
 # Authors
 The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
