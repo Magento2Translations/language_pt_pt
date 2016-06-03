@@ -5,6 +5,12 @@ This translation is usefull for people living in the Portugal (Portugal).
 
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
+# Version & progress
+This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/pt-PT#/Head) at Crowdin and based on the Magento 2.0.7 sourcefiles.
+There have been  5538 strings translated of the 7782 strings in the Magento source.
+
+Translation progress:![Progress](http://progressed.io/bar/71)
+
 # Instalation
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
