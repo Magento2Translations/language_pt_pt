@@ -1300,8 +1300,8 @@ Content,Conteúdo,module,Magento_CheckoutAgreements
 "Content Height","Altura do Conteúdo",module,Magento_CheckoutAgreements
 Condition,Condição,module,Magento_CheckoutAgreements
 Sales,Vendas,module,Magento_CheckoutAgreements
-"Checkout Conditions","Condições de Checkout",module,Magento_CheckoutAgreements
-"Checkout Terms and Conditions","Termos e Condições do Checkout",module,Magento_CheckoutAgreements
+"Checkout Conditions","Condições de Finalizar Compra",module,Magento_CheckoutAgreements
+"Checkout Terms and Conditions","Termos e Condições de Finalizar Compra",module,Magento_CheckoutAgreements
 "This condition no longer exists.","Esta condição já não existe.",module,Magento_CheckoutAgreements
 "You deleted the condition.","Apagou a condição.",module,Magento_CheckoutAgreements
 "Something went wrong  while deleting this condition.","Algo correu mal ao remover esta condição.",module,Magento_CheckoutAgreements
@@ -1341,7 +1341,7 @@ State/Province,Concelho/Distrito,module,Magento_Checkout
 "We can't update the shopping cart.","Não foi possível atualizar o carrinho de compras.",module,Magento_Checkout
 "One-page checkout is turned off.","O checkout de uma página está desligado.",module,Magento_Checkout
 "Guest checkout is disabled.","O checkout para utilizadores não registados está desativado.",module,Magento_Checkout
-Checkout,Finalizar,module,Magento_Checkout
+Checkout,"Finalizar Compra",module,Magento_Checkout
 "Page not found.","Página não encontrada.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de confirmar a encomenda.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Algo correu mal durante o processamento da sua encomenda. Por favor, tente novamente mais tarde.",module,Magento_Checkout
@@ -1364,7 +1364,7 @@ Checkout,Finalizar,module,Magento_Checkout
 "The customer address is not valid.","A morada do cliente não é válida.",module,Magento_Checkout
 "Invalid shipping method","Modo de envio inválido",module,Magento_Checkout
 "There are more than one shipping addresses.","Existe mais do que uma morada de envio.",module,Magento_Checkout
-"Sorry, guest checkout is not available.","Pedimos desculpa, mas a opção de encomendar não está disponível para utilizadores não registados.",module,Magento_Checkout
+"Sorry, guest checkout is not available.","Desculpe, a opção de finalizar compra não está disponível para os utilizadores não registados.",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Tem de confirmar o seu registo. Por favor procure no seu e-mail o link de confirmação ou <a href=""%1""> clique aqui</a> para pedir um novo link.",module,Magento_Checkout
 "Load customer quote error","Erro ao carregar o orçamento do cliente",module,Magento_Checkout
 "Error message!","Mensagem de erro!",module,Magento_Checkout
@@ -1394,7 +1394,7 @@ Edit,Editar,module,Magento_Checkout
 "Excl. Tax","Excluindo impostos",module,Magento_Checkout
 Loading...,Carregando...,module,Magento_Checkout
 "Order #","Encomenda #",module,Magento_Checkout
-"Proceed to Checkout","Avançar para o Checkout",module,Magento_Checkout
+"Proceed to Checkout","Avançar para Finalizar Compra",module,Magento_Checkout
 "Product Name","Nome do Produto",module,Magento_Checkout
 "Incl. Tax","Imposto incl.",module,Magento_Checkout
 "Your order number is: %1.","O seu número de encomenda é: %1.",module,Magento_Checkout
@@ -3409,7 +3409,7 @@ Void,Anular,module,Magento_Paypal
 "The PayPal certificate file is empty.","O ficheiro do certificado PayPal está vazio.",module,Magento_Paypal
 "Header (center)","Cabeçalho (centro)",module,Magento_Paypal
 "Sidebar (right)","Barra lateral (à direita)",module,Magento_Paypal
-"Near PayPal Credit checkout button","Perto do botão de checkout de Crédito PayPal",module,Magento_Paypal
+"Near PayPal Credit checkout button","Junto ao botão de Finalizar Compra de Crédito PayPal",module,Magento_Paypal
 "--Please Select--","-- Por favor selecione --",module,Magento_Paypal
 Daily,Diariamente,module,Magento_Paypal
 "Every 3 days","A cada 3 dias",module,Magento_Paypal
@@ -3472,7 +3472,7 @@ Price,Preço,module,Magento_Paypal
 Qty,Qtd,module,Magento_Paypal
 "Please update order data to get shipping methods and rates","Por favor atualize os dados da encomenda para obter os modos de envios e taxas",module,Magento_Paypal
 or,ou,module,Magento_Paypal
-"Checkout with PayPal","Efetuar Checkout com PayPal",module,Magento_Paypal
+"Checkout with PayPal","Finalizar Compra com PayPal",module,Magento_Paypal
 "Please do not refresh the page until you complete payment.","Por favor não recarregue a página até concluir o pagamento.",module,Magento_Paypal
 "You will be required to enter your payment details after you place an order.","Ser-lhe-á pedido para inserir a sua informação de pagamento depois de confirmar a encomenda.",module,Magento_Paypal
 Continue,Continuar,module,Magento_Paypal
@@ -3654,6 +3654,7 @@ Previous,Anterior,module,Magento_Review
 Next,Seguinte,module,Magento_Review
 "Delete Review","Apagar Avaliação",module,Magento_Review
 "Are you sure you want to do this?","Tem certeza que quer fazer isso?",module,Magento_Review
+"Edit Review '%1'","Editar Comentário '%1'",module,Magento_Review
 Administrator,Administrador,module,Magento_Review
 Guest,Convidado,module,Magento_Review
 Author,Autor,module,Magento_Review
@@ -4083,6 +4084,7 @@ Add,Adicionar,module,Magento_Shipping
 Print,Imprimir,module,Magento_Shipping
 "the shipment email was sent","foi enviado o e-mail de envio",module,Magento_Shipping
 "Print Shipping Label","Imprimir a Etiqueta de Envio",module,Magento_Shipping
+"Show Packages","Mostrar Pacotes",module,Magento_Shipping
 "About Your Shipment","Sobre a sua Encomenda",module,Magento_Shipping
 "Order # %1","Encomenda # %1",module,Magento_Shipping
 "Back to My Orders","Voltar para Os Meus Pedidos",module,Magento_Shipping
@@ -4184,8 +4186,10 @@ Language,Idioma,module,Magento_Store
 "Text Swatch","Amostra de Texto",module,Magento_Swatches
 "Manage Swatch (values of your attribute)","Gerir Swatch (valores do seu atributo)",module,Magento_Swatches
 "Is Default","Utilizar por pré-definição",module,Magento_Swatches
+"Add Swatch","Adicionar Amostra",module,Magento_Swatches
 "Sort Option","Opções de Ordenação",module,Magento_Swatches
 Delete,Eliminar,module,Magento_Swatches
+Swatch,Amostra,module,Magento_Swatches
 "Step 2: Attribute Values","Passo 2: Valores de Atributo",module,Magento_Swatches
 "Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Selecione valores de cada atributo para incluir neste produto. Cada combinação única de valores cria uma referência de produto SKU única.",module,Magento_Swatches
 "Sort Variations","Ordenar Variações",module,Magento_Swatches
@@ -4199,11 +4203,13 @@ Options,Opções,module,Magento_Swatches
 Code,Código,module,Magento_TaxImportExport
 Country,País,module,Magento_TaxImportExport
 State,Estado,module,Magento_TaxImportExport
+"Zip/Post Code","Código Postal",module,Magento_TaxImportExport
 "Import and Export Tax Rates","Importar e Exportar Taxas de Imposto",module,Magento_TaxImportExport
 "Invalid file upload attempt","Tentativa de carregamento de arquivo inválido",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Tentativa de carregamento de arquivo inválido.",module,Magento_TaxImportExport
 "One of the countries has invalid code.","Um dos países tem código inválido.",module,Magento_TaxImportExport
 "Import Tax Rates","Taxas de Imposto de Importação",module,Magento_TaxImportExport
+"Export Tax Rates","Exportar Taxas de Imposto",module,Magento_TaxImportExport
 "Tax Rate Information","Informação da Taxa de Imposto",module,Magento_Tax
 "Tax Identifier","Identificador Fiscal",module,Magento_Tax
 "Zip/Post is Range","Código Postal está no Intervalo",module,Magento_Tax
@@ -4372,6 +4378,9 @@ Minute,Minuto,module,Magento_Theme
 Next,Seguinte,module,Magento_Ui
 Back,Voltar,module,Magento_Ui
 Cancel,Cancelar,module,Magento_Ui
+"UPS Worldwide Expedited","Expedido por UPS Worldwide",module,Magento_Ups
+"UPS Three-Day Select","Selecionar UPS Três Dias",module,Magento_Ups
+"UPS Expedited","Expedido pela UPS",module,Magento_Ups
 Pallet,Palete,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Pedimos desculpa, ocorreu algum erro. Por favor tente novamente. Se o problema persistir entre em contacto connosco.",module,Magento_Ups
 None,Nenhum,module,Magento_Ups
@@ -4380,7 +4389,9 @@ label,etiqueta,module,Magento_Ups
 "Add URL Rewrite for a Category","Adicionar Reescrita de URL para a Categoria",module,Magento_UrlRewrite
 Category:,Categoria:,module,Magento_UrlRewrite
 "We can't set up a URL rewrite because the product you chose is not associated with a website.","Não foi possível configurar a reescrita de URL porque o produto que escolheu não está associado com um website.",module,Magento_UrlRewrite
+"Please assign a website to the selected category.","Por favor, atribua um site da Web para a categoria selecionada.",module,Magento_UrlRewrite
 "Edit URL Rewrite for a Product","Editar Reescrita de URL para um Produto",module,Magento_UrlRewrite
+"Add URL Rewrite for a Product","Adicionar Reescrever URL para um Produto",module,Magento_UrlRewrite
 Product:,Produto:,module,Magento_UrlRewrite
 Name,Nome,module,Magento_UrlRewrite
 SKU,REF,module,Magento_UrlRewrite
@@ -4528,6 +4539,7 @@ Yes,Sim,module,Magento_Variable
 "Variable HTML Value","Valor da variável HTML",module,Magento_Variable
 "You deleted the custom variable.","Você excluiu a variável personalizada.",module,Magento_Variable
 "Variable Code must be unique.","Código da Variável deve ser único.",module,Magento_Variable
+"Validation has failed.","Validação falhou.",module,Magento_Variable
 "Insert Variable...","Inserir Variável...",module,Magento_Variable
 "Operation allowed only in HTTPS","Operação permitida apenas através de HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","Não é possível executar o pedido GET com o código de loja 'all'",module,Magento_Webapi
@@ -4707,7 +4719,7 @@ Remove,Eliminar,theme,frontend/Magento/luma
 "Shopping Options","Opções de Compra",theme,frontend/Magento/luma
 "Payment Transaction Failed","Transação de Pagamento Falhada",module,Magento_Checkout
 Reason,Motivo,module,Magento_Checkout
-"Checkout Type","Tipo de Checkout",module,Magento_Checkout
+"Checkout Type","Tipo de Finalizar Compra",module,Magento_Checkout
 Customer:,Cliente:,module,Magento_Checkout
 "Billing Address:","Morada de Faturação:",module,Magento_Checkout
 "Shipping Address:","Morada de Envio:",module,Magento_Checkout
@@ -4759,7 +4771,7 @@ Password:,Palavra-passe:,theme,frontend/Magento/luma
 "Password you set when creating account","Palavra-passe que definiu ao criar a sua conta",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Esqueceu-se da palavra-passe? Clique <a href=""%reset_url"">aqui</a> para a redefinir.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Quando iniciar sessão, vai poder:",theme,frontend/Magento/luma
-"Quick Checkout","Checkout Rápido",theme,frontend/Magento/luma
+"Quick Checkout","Finalizar Compra Rápido",theme,frontend/Magento/luma
 "Proceed through checkout faster","Finalizar a compra de forma mais rápida",theme,frontend/Magento/luma
 "Order Status","Estado da Encomenda",theme,frontend/Magento/luma
 "Check the status of orders","Verificar o estado das encomendas",theme,frontend/Magento/luma
@@ -5272,7 +5284,7 @@ none,nenhum,module,Magento_Catalog
 Overview,"Vista Geral",module,Magento_Catalog
 Details,Detalhes,module,Magento_Catalog
 "Enable Terms and Conditions","Ativar Termos e Condições",module,Magento_CheckoutAgreements
-"Checkout Options","Opcões de Checkout",module,Magento_Checkout
+"Checkout Options","Opções de Finalizar Compra",module,Magento_Checkout
 "Enable Onepage Checkout","Ativar Pagamento numa única Página",module,Magento_Checkout
 "Allow Guest Checkout","Permitir Compras por Visitantes",module,Magento_Checkout
 "Require Customer To Be Logged In To Checkout","O cliente tem de ter sessão iniciada para efetuar o checkout",module,Magento_Checkout
@@ -5471,7 +5483,7 @@ Addresses,Moradas,module,Magento_Customer
 "Developer Client Restrictions","Restrições de Cliente para Developers",module,Magento_Developer
 "Allowed IPs (comma separated)","IPs Permitidos (separados por vírgula)",module,Magento_Developer
 "Leave empty for access from any location.","Deixe em branco para aceder em qualquer lugar.",module,Magento_Developer
-"Enabled for Checkout","Ativado para o Checkout",module,Magento_Dhl
+"Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Dhl
 "Gateway URL","URL do Gateway",module,Magento_Dhl
 Title,Título,module,Magento_Dhl
 "Access ID","ID de Acesso",module,Magento_Dhl
@@ -5541,7 +5553,7 @@ Updated,Atualizado,module,Magento_Email
 Subject,Assunto,module,Magento_Email
 "Template Type","Tipo de Template",module,Magento_Email
 Action,Ação,module,Magento_Email
-"Enabled for Checkout","Ativado para o Checkout",module,Magento_Fedex
+"Enabled for Checkout","Ativado para Finalizar Compra",module,Magento_Fedex
 Title,Título,module,Magento_Fedex
 "Account ID","ID da conta",module,Magento_Fedex
 "Please make sure to use only digits here. No dashes are allowed.","Por favor certifique-se que apenas usa dígitos neste campo. Não são permitidos hífens.",module,Magento_Fedex
@@ -5751,7 +5763,7 @@ Se o campo estiver vazio será gravado o valor localhost.",module,Magento_PageCa
 "Add another payment method to your existing solution or as a stand-alone option.","Adicione outro método de pagamento à sua solução existente ou como uma opção autónoma.",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Aceite pagamentos com uma página de checkout completamente personalizável.",module,Magento_Paypal
 "PayPal Payment Solutions","Soluções de Pagamento PayPal",module,Magento_Paypal
-"Express Checkout","Checkout Express",module,Magento_Paypal
+"Express Checkout","Finalizar Compra Expresso",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Adicione PayPal como método de pagamento adicional à sua página de checkout.",module,Magento_Paypal
 "Required PayPal Settings","Definições de PayPal Necessárias",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account","Email Associado com a Conta de Comerciante PayPal",module,Magento_Paypal
@@ -5777,7 +5789,7 @@ Position,Posição,module,Magento_Paypal
 Size,Tamanho,module,Magento_Paypal
 "Catalog Category Page","Página da Categoria do Catálogo",module,Magento_Paypal
 "Catalog Product Page","Página dos Produtos do Catálogo",module,Magento_Paypal
-"Checkout Cart Page","Página do Carrinho do Checkout",module,Magento_Paypal
+"Checkout Cart Page","Página do Carrinho de Finalizar Compra",module,Magento_Paypal
 "Basic Settings - PayPal Express Checkout","Definições Básicas - PayPal Checkout Express",module,Magento_Paypal
 Title,Título,module,Magento_Paypal
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","É recomendado definir este valor para ""Magento_PayPal"" por vista de loja.",module,Magento_Paypal
@@ -5857,7 +5869,7 @@ User,Utilizador,module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","Email Associado com a Conta de Comerciante PayPal (Opcional)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Se não tiver múltiplos utilizadores configurados na sua conta, por favor re-introduza os seus dados de Vendedor/Comerciante aqui.",module,Magento_Paypal
 "Enable Payflow Link","Ativar Payflow Link",module,Magento_Paypal
-"Enable Express Checkout","Ativar Checkout Express",module,Magento_Paypal
+"Enable Express Checkout","Ativar Finalizar Compra Expresso",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Definições Básicas - Payflow Link PayPal",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Solução de Pagamentos do Site Pro Hosted",module,Magento_Paypal
 "Accept payments with a PCI compliant checkout that keeps customers on your site.","Aceite pagamentos com um checkout segundo a norma PCI que mantenha os clientes no seu site.",module,Magento_Paypal
@@ -5865,7 +5877,7 @@ User,Utilizador,module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Definições Básicas - Solução de Pagamentos PayPal Pro Hosted",module,Magento_Paypal
 "It is recommended to set this value to ""PayPal"" per store views.","É recomendado definir este valor para ""PayPal"" por vista de loja.",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Mostrar Checkout Express no passo de informação do Pagamento",module,Magento_Paypal
-"Website Payments Pro Hosted Solution and Express Checkout","Solução de Pagamentos do Site Pro Hosted e Checkout Express",module,Magento_Paypal
+"Website Payments Pro Hosted Solution and Express Checkout","Solução de Pagamentos de Site da Web Pro Hospedado e Finalizar Compra Expresso",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Definições Básicas - Solução de Pagamentos PayPal Pro Hosted",module,Magento_Paypal
 "Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Ligue a sua conta de comerciante com um gateway completamente personalizável que permita aos clientes pagar sem sair do seu site.",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Definições Básicas - PayPal Payflow Pro",module,Magento_Paypal
