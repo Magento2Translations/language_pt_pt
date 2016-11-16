@@ -3900,8 +3900,8 @@ Quantity,Quantidade,module,Magento_Sales
 "Clear Shopping Cart","Esvaziar Carrinho de Compras",module,Magento_Sales
 "Products in Comparison List","Produtos na Lista de Comparação",module,Magento_Sales
 "Update Qty's","Atualizar Qtd's",module,Magento_Sales
-"The credit memo email wasn't sent.","Não foi enviado o e-mail de nota de crédito.",module,Magento_Sales
-"The invoice email wasn't sent.","Não foi enviado o e-mail de factura.",module,Magento_Sales
+"The credit memo email wasn't sent.","E e-mail de nota de crédito não foi enviado.",module,Magento_Sales
+"The invoice email wasn't sent.","O e-mail da fatura não foi enviado.",module,Magento_Sales
 Edit,Editar,module,Magento_Sales
 Any,Qualquer,module,Magento_Sales
 Yes,Sim,module,Magento_Sales
@@ -3911,7 +3911,7 @@ Back,Voltar,module,Magento_Sales
 N/A,N/D,module,Magento_Sales
 "We can't add this item to your shopping cart right now.","De momento não é possível adicionar este item ao seu carrinho de compras.",module,Magento_Sales
 Sales,Vendas,module,Magento_Sales
-"We can't update the order address right now.","De momento não é possível atualizar a morada do pedido.",module,Magento_Sales
+"We can't update the order address right now.","De momento não foi possível atualizar a morada do pedido.",module,Magento_Sales
 "Quote item id is not received.","O id do item do orçamento não foi recebido.",module,Magento_Sales
 "Quote item is not loaded.","O item do orçamento não está carregado.",module,Magento_Sales
 "You created the order.","Você criou a encomenda.",module,Magento_Sales
@@ -4246,17 +4246,29 @@ Tax,Taxa,module,Magento_Tax
 "We can't save this rate right now.","De momento não é possível guardar esta conversão.",module,Magento_Tax
 "We can't delete this rate because of an incorrect rate ID.","Não foi possível eliminar esta conversão devido a um ID de conversão incorreto.",module,Magento_Tax
 "This rule no longer exists.","Esta regra já não existe.",module,Magento_Tax
+"Edit Rule","Editar Regra",module,Magento_Tax
 "New Rule","Nova Regra",module,Magento_Tax
 "We can't save this tax rule right now.","De momento não é possível guardar esta regra de imposto.",module,Magento_Tax
 "We can't delete this tax class right now.","De momento não é possível eliminar esta classe de imposto.",module,Magento_Tax
 "We can't save this tax class right now.","De momento não é possível guardar esta classe de imposto.",module,Magento_Tax
+"Shipping Address","Morada para Entrega",module,Magento_Tax
 "Billing Address","Morada de Faturação",module,Magento_Tax
+"Shipping Origin","Origem da Expedição",module,Magento_Tax
 "Invalid attribute %1","Atributo inválido %1",module,Magento_Tax
 Code,Código,module,Magento_Tax
+"Shipping (Excl. Tax)","Expedição (Excl. IVA)",module,Magento_Tax
 "Row Total","Total da Linha",module,Magento_Tax
+"Before Discount","Antes do Desconto",module,Magento_Tax
+"After Discount","Após o Desconto",module,Magento_Tax
+"Excluding Tax","Excluindo IVA",module,Magento_Tax
+"Including Tax","Incluindo IVA",module,Magento_Tax
 None,Nenhum,module,Magento_Tax
+"Including and Excluding Tax","Incluindo e Excluindo IVA",module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>","Clique no link para <a href=""%1"">ignorar esta notificação</a>",module,Magento_Tax
+product,produto,module,Magento_Tax
 "Incl. Tax","Imposto incl.",module,Magento_Tax
 "Excl. Tax","Excluindo impostos",module,Magento_Tax
+Note:,Anotação:,module,Magento_Tax
 Save,Gravar,module,Magento_Tax
 Themes,Temas,module,Magento_Theme
 "Save and Continue Edit","Gravar e Continuar Edição",module,Magento_Theme
