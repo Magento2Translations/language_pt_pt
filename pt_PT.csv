@@ -465,6 +465,7 @@ Delete,Eliminar,module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","O sub-produto com a referência indicada: ""%1"" já está atribuído ao produto: ""%2""",module,Magento_Bundle
 "Product with specified sku: %1 is not a bundle product","O produto com a referência indicada: ""%1"" não é um produto pack",module,Magento_Bundle
 "Requested bundle option product doesn't exist","O produto com opção de pack requisitado não existe",module,Magento_Bundle
+"%fieldName is a required field.","%fieldName é um campo obrigatório.",module,Magento_Bundle
 "Requested option doesn't exist","A opção pedida não existe",module,Magento_Bundle
 "Cannot delete option with id %1","Não é possível remover a opção com id %1",module,Magento_Bundle
 "Could not save option","Não foi possível gravar a opção",module,Magento_Bundle
@@ -479,11 +480,13 @@ Separately,Separadamente,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","De momento não é possível adicionar este item ao seu carrinho de compras.",module,Magento_Bundle
 N/A,N/D,module,Magento_Bundle
 Percent,"Por cento",module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.","Não é possível guardar opções definidas de forma personalizada em pacotes com preços dinâmicos.",module,Magento_Bundle
 Cancel,Cancelar,module,Magento_Bundle
 "Add Selected Products","Adicionar Produtos Selecionados",module,Magento_Bundle
 "Add Option","Adicionar Opção",module,Magento_Bundle
 "New Option","Nova Opção",module,Magento_Bundle
 "Option Title","Título da opção",module,Magento_Bundle
+"Default Title","Título por Omissão",module,Magento_Bundle
 "Store View Title","Título da Vista de Loja",module,Magento_Bundle
 "Input Type","Tipo de input",module,Magento_Bundle
 Drop-down,Menu,module,Magento_Bundle
@@ -491,6 +494,7 @@ Drop-down,Menu,module,Magento_Bundle
 Checkbox,"Caixa de seleção",module,Magento_Bundle
 "Multiple Select","Seleção Múltipla",module,Magento_Bundle
 Required,Obrigatório,module,Magento_Bundle
+"Is Default","Por Omissão",module,Magento_Bundle
 Name,Nome,module,Magento_Bundle
 "Default Quantity","Quantidade Pré-definida",module,Magento_Bundle
 "User Defined","Definido pelo Utilizador",module,Magento_Bundle
@@ -4542,6 +4546,7 @@ username,"nome de utilizador",module,Magento_User
 "Your password must include both numeric and alphabetic characters.","A sua palavra-passe deve incluir caracteres alfabéticos e numéricos.",module,Magento_User
 "Your password confirmation must match your password.","A sua confirmação da palavra-passe deve coincidir com a palavra-passe.",module,Magento_User
 "It's time to change your password.","Está na altura de alterar a sua palavra-passe.",module,Magento_User
+"It's time to <a href=""%1"">change your password</a>.","Está na altura de <a href=\"%1\">alterar a sua palavra-passe</a>.",module,Magento_User
 "Your password has expired; please contact your administrator.","A sua palavra-passe expirou; por favor contacte o administrador.",module,Magento_User
 "Password Help","Ajuda de Palavra-passe",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","Introduza o seu endereço de email. Irá receber um email com um link para redefinir a sua palavra-passe.",module,Magento_User
@@ -5510,7 +5515,10 @@ Image,Imagem,module,Magento_Catalog
 Small,Pequena,module,Magento_Catalog
 "Attribute Properties","Propriedade do Atributo",module,Magento_Catalog
 "Attribute Label","Etiqueta do Atributo",module,Magento_Catalog
+"Catalog Input Type for Store Owner","Tipo de Input de Catálogo para o Dono da Loja",module,Magento_Catalog
 Values,Valores,module,Magento_Catalog
+"Add this attribute to the list of column options in the product grid.","Adicione este atributo na lista de opções nas colunas da vista em grelha dos produtos.",module,Magento_Catalog
+"Add this attribute to the list of filter options in the product grid.","Adicione este atributo na lista de opções nas colunas da vista em grelha dos produtos.",module,Magento_Catalog
 System,Sistema,module,Magento_Catalog
 "All Store Views","Todas as Vistas de Loja",module,Magento_Catalog
 "Delete items","Remover itens",module,Magento_Catalog
