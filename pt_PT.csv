@@ -5550,6 +5550,7 @@ Details,Detalhes,module,Magento_Catalog
 "Send Payment Failed Email Copy To","Enviar Cópia do Email de Falha de Pagamento Para",module,Magento_Checkout
 "Separate by "","".","Separados por "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","Método de Cópia do Email de Falha de Pagamento",module,Magento_Checkout
+Summary,Resumo,module,Magento_Checkout
 "Order Total","Total da Encomenda",module,Magento_Checkout
 "We'll send your order confirmation here.","Enviaremos a confirmação da sua encomenda aqui.",module,Magento_Checkout
 Payment,Pagamento,module,Magento_Checkout
