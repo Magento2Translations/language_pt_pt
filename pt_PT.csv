@@ -683,6 +683,7 @@ Relevance,Relevância,module,Magento_CatalogSearch
 Category,Categoria,module,Magento_CatalogSearch
 "%1 and above","%1 e acima",module,Magento_CatalogSearch
 "Sorry, something went wrong. You can find out more in the error log.","Pedimos desculpa, algo deu errado. Encontrará mais detalhes no log de erros.",module,Magento_CatalogSearch
+"Bucket does not exist","Pacote não existente",module,Magento_CatalogSearch
 Product,Produto,module,Magento_CatalogSearch
 "Search Settings","Definições de Pesquisa",module,Magento_CatalogSearch
 Search,Pesquisa,module,Magento_CatalogSearch
