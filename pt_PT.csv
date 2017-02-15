@@ -4131,32 +4131,41 @@ Description,Descrição,module,Magento_Shipping
 "Save & Generate","Gravar e Gerar",module,Magento_Sitemap
 "Edit Sitemap","Editar o mapa do site",module,Magento_Sitemap
 "New Sitemap","Novo mapa do site",module,Magento_Sitemap
-"Sitemap Information","Informações de mapa do sítio",module,Magento_Sitemap
-Sitemap,"Mapa do sítio",module,Magento_Sitemap
+"Sitemap Information","Informações do mapa do site",module,Magento_Sitemap
+Sitemap,"Mapa do site",module,Magento_Sitemap
 Filename,"Nome do Ficheiro",module,Magento_Sitemap
 "example: sitemap.xml","exemplo: sitemap.xml",module,Magento_Sitemap
 Path,Caminho,module,Magento_Sitemap
+"example: ""/sitemap/"" or ""/"" for base path (path must be writeable)","exemplo: ""/sitemap/"" ou ""/"" para o caminho base (o caminho deve permitir escrita)",module,Magento_Sitemap
 "Store View","Vista da Loja",module,Magento_Sitemap
 Generate,Gerar,module,Magento_Sitemap
 "XML Sitemap","Mapa do site XML",module,Magento_Sitemap
 "Add Sitemap","Adicionar mapa do site",module,Magento_Sitemap
 Catalog,Catálogo,module,Magento_Sitemap
+"You deleted the sitemap.","Eliminou o mapa do site.",module,Magento_Sitemap
 "We can't find a sitemap to delete.","Não foi possível encontrar um mapa do site para excluir.",module,Magento_Sitemap
-"This sitemap no longer exists.","Este mapa do sítio já não existe.",module,Magento_Sitemap
-"Site Map","Mapa do sítio",module,Magento_Sitemap
-"New Site Map","Novo Mapa do Sítio",module,Magento_Sitemap
-"The sitemap ""%1"" has been generated.","O mapa do sítio ""%1"" foi gerado.",module,Magento_Sitemap
+"This sitemap no longer exists.","Este mapa do site já não existe.",module,Magento_Sitemap
+"Site Map","Mapa do site",module,Magento_Sitemap
+"New Site Map","Novo Mapa do Site",module,Magento_Sitemap
+"The sitemap ""%1"" has been generated.","O mapa do site ""%1"" foi gerado.",module,Magento_Sitemap
 "We can't generate the sitemap right now.","De momento não é possível gerar um mapa do site.",module,Magento_Sitemap
 "We can't find a sitemap to generate.","Não foi encontrado um mapa do site para ser gerado.",module,Magento_Sitemap
-"You saved the sitemap.","Você gravou o mapa do sítio.",module,Magento_Sitemap
+"You saved the sitemap.","Mapa do site salvo.",module,Magento_Sitemap
 "The priority must be between 0 and 1.","A prioridade deve ser entre 0 e 1.",module,Magento_Sitemap
 Always,Sempre,module,Magento_Sitemap
 Hourly,"De hora a hora",module,Magento_Sitemap
 Daily,Diário,module,Magento_Sitemap
 Weekly,Semanal,module,Magento_Sitemap
+Monthly,Mensal,module,Magento_Sitemap
+Yearly,Anual,module,Magento_Sitemap
 Never,Nunca,module,Magento_Sitemap
+"File handler unreachable","Gestor de ficheiros inacessível",module,Magento_Sitemap
 "Please define a correct path.","Por favor defina um caminho correcto.",module,Magento_Sitemap
+"Please create the specified folder ""%1"" before saving the sitemap.","Por favor, crie a pasta indicada ""%1"" antes de salvar o mapa do site.",module,Magento_Sitemap
+"Please make sure that ""%1"" is writable by the web-server.","Por favor, certifique-se de que ""%1"" permite escrita pelo servidor-web.",module,Magento_Sitemap
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","Por favor use apenas letras (a-z ou A-Z), números (0-9) ou underscores (_) no nome do ficheiro. Não são permitidos espaços ou outros caracteres.",module,Magento_Sitemap
 None,Nenhum,module,Magento_Sitemap
+"Base Only","Apenas a Base",module,Magento_Sitemap
 All,Todos,module,Magento_Sitemap
 "Current store is not active.","A loja atual não está ativa.",module,Magento_Store
 "Requested store is inactive","A loja solicitada está inactiva",module,Magento_Store
@@ -4768,6 +4777,7 @@ Password:,Palavra-passe:,module,Magento_Customer
 "You have been successfully subscribed to our newsletter.","Subscreveu a nossa newsletter com sucesso.",module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.","Cancelou a sua subscrição da newsletter com sucesso.",module,Magento_Newsletter
 "Product alerts cron warnings","Avisos de cron de alertas de produto",module,Magento_ProductAlert
+"Sitemap Generation Warnings","Avisos de geração do Mapa do Site",module,Magento_Sitemap
 "The password for your account has been successfully changed.","A palavra-passe da sua conta foi alterada com sucesso.",module,Magento_User
 "If you did not request this change, please contact us.","Se não solicitou esta alteração, por favor contacte-nos.",module,Magento_User
 "Thank you,","Obrigado,",module,Magento_User
@@ -5986,10 +5996,28 @@ Enabled,Ativo,module,Magento_SendFriend
 "Allow for Guests","Permitir para Convidados",module,Magento_SendFriend
 Country,País,module,Magento_Shipping
 City,Cidade,module,Magento_Shipping
+"Categories Options","Opções de categorias",module,Magento_Sitemap
 Frequency,Frequência,module,Magento_Sitemap
 Priority,Prioridade,module,Magento_Sitemap
+"Valid values range from 0.0 to 1.0.","Intervalo de valores válidos de 0,0 a 1,0.",module,Magento_Sitemap
+"Products Options","Opções de produtos",module,Magento_Sitemap
+"Add Images into Sitemap","Adicionar imagens ao mapa do site",module,Magento_Sitemap
+"CMS Pages Options","Opções das páginas do CMS",module,Magento_Sitemap
+"Generation Settings","Definições Gerais",module,Magento_Sitemap
 Enabled,Ativo,module,Magento_Sitemap
+"Error Email Recipient","Destinatário de Email de Erro",module,Magento_Sitemap
 "Error Email Sender","Remetente de Email de Erro",module,Magento_Sitemap
+"Error Email Template","Template de Email de Erro",module,Magento_Sitemap
+"Email template chosen based on theme fallback when ""Default"" option is selected.","O template de email é escolhido com base no tema de recurso quando a opção ""Default"" está selecionada.",module,Magento_Sitemap
+"Start Time","Hora de Início",module,Magento_Sitemap
+"Sitemap File Limits","Limites de ficheiro do mapa do site",module,Magento_Sitemap
+"Maximum No of URLs Per File","Numero Máximo de URLs por ficheiro",module,Magento_Sitemap
+"Maximum File Size","Tamanho máximo do ficheiro",module,Magento_Sitemap
+"File size in bytes.","Tamanho do ficheiro em bytes.",module,Magento_Sitemap
+"Search Engine Submission Settings","Configurações de envio do motor de busca",module,Magento_Sitemap
+"Enable Submission to Robots.txt","Permitir o envio ao Robots.txt",module,Magento_Sitemap
+"Link for Google","Link para o Google",module,Magento_Sitemap
+"Last Generated","Última gerado",module,Magento_Sitemap
 Action,Ação,module,Magento_Sitemap
 Configuration,Configuração,module,Magento_Store
 "Various XML configurations that were collected across modules and merged.","Foram obtidas e combinadas várias configurações XML.",module,Magento_Store
