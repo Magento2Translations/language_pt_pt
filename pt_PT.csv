@@ -440,28 +440,6 @@ Authorize,Autorizar,module,Magento_Braintree
 "Authorize and Capture","Autorizar e capturar",module,Magento_Braintree
 "--Please Select--","-- Por favor selecione --",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de confirmar a encomenda.",module,Magento_Braintree
-"Paypal account","Conta PayPal",module,Magento_Braintree
-"Coinbase account","Conta Coinbase",module,Magento_Braintree
-"Europe bank account","Conta Bancária Europeia",module,Magento_Braintree
-"Credit card","Cartão de crédito",module,Magento_Braintree
-"Apple pay card","Cartão Apple Pay",module,Magento_Braintree
-"Android pay card","Cartão Android Pay",module,Magento_Braintree
-"Authorization expired","A autorização expirou",module,Magento_Braintree
-Authorizing,"A autorizar",module,Magento_Braintree
-Authorized,Autorizado,module,Magento_Braintree
-"Gateway rejected","Gateway recusado",module,Magento_Braintree
-Failed,Falhou,module,Magento_Braintree
-"Processor declined","Processador recusado",module,Magento_Braintree
-Settled,Liquidada,module,Magento_Braintree
-Settling,Liquidando,module,Magento_Braintree
-"Submitted for settlement","Enviada para liquidação",module,Magento_Braintree
-Voided,Anulada,module,Magento_Braintree
-Unrecognized,"Não reconhecida",module,Magento_Braintree
-"Settlement declined","Liquidação recusada",module,Magento_Braintree
-"Settlement pending","Liquidação pendente",module,Magento_Braintree
-"Settlement confirmed","Liquidação confirmada",module,Magento_Braintree
-Sale,Venda,module,Magento_Braintree
-Credit,Crédito,module,Magento_Braintree
 "Credit Card Type","Tipo de cartão de crédito",module,Magento_Braintree
 "Credit Card Number","Número de cartão de crédito",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Por favor insira um número de cartão de crédito válido",module,Magento_Braintree
@@ -1621,7 +1599,6 @@ Summary,Resumo,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Precisa de escolher opções para o seu artigo.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Alguns campos de variações do produto não são válidos.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","A configuração deve ter atributos especificados",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","O produto configurável ""%1"" não tem sub-produtos",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Tipo %1 não é uma instância de %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Escolher Conjunto de Atributos Afetado",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Adicionar atributos configuráveis ao Conjunto de Atributos atual",module,Magento_ConfigurableProduct
@@ -4208,9 +4185,9 @@ Action,Ação,module,Magento_Shipping
 "Qty Shipped","Qtd Enviada",module,Magento_Shipping
 SKU,REF,module,Magento_Shipping
 N/A,N/D,module,Magento_Shipping
+"Close Window","Fechar janela",module,Magento_Shipping
 Date,Data,module,Magento_Shipping
 Description,Descrição,module,Magento_Shipping
-"Close Window","Fechar janela",module,Magento_Shipping
 "Save & Generate","Gravar e Gerar",module,Magento_Sitemap
 "Edit Sitemap","Editar o mapa do site",module,Magento_Sitemap
 "New Sitemap","Novo mapa do site",module,Magento_Sitemap
@@ -4255,7 +4232,6 @@ All,Todos,module,Magento_Sitemap
 "Requested store is inactive","A loja solicitada está inactiva",module,Magento_Store
 "Requested store is not found","Loja solicitada não foi encontrada",module,Magento_Store
 "Environment emulation nesting is not allowed.","Não é permitido o nesting de emulações de ambiente.",module,Magento_Store
-"Only default scope allowed","Apenas é permitido o escopo pré-definido",module,Magento_Store
 "Invalid scope object","Objeto de escopo inválido",module,Magento_Store
 "Store with the same code","Loja com o mesmo código",module,Magento_Store
 "Website with the same code","Sítio com o mesmo código",module,Magento_Store
@@ -4267,8 +4243,8 @@ All,Todos,module,Magento_Sitemap
 "All Store Views","Todas as Vistas de Loja",module,Magento_Store
 "-- Please Select --","-- Por favor, selecione --",module,Magento_Store
 Admin,Administrador,module,Magento_Store
-"More than one default website is defined","Está definido mais de um site pré-definido",module,Magento_Store
 "Default website is not defined","Não está definido o site pré-definido",module,Magento_Store
+"More than one default website is defined","Está definido mais de um site pré-definido",module,Magento_Store
 "Your Language:","O seu Idioma:",module,Magento_Store
 "Your Language","O seu Idioma",module,Magento_Store
 Language,Idioma,module,Magento_Store
@@ -4657,12 +4633,9 @@ Yes,Sim,module,Magento_Variable
 "No token found.","Nenhum token encontrado.",module,Magento_Vault
 "Wrong request.","Pedido Errado.",module,Magento_Vault
 "Deletion failure. Please try again.","Falha de exclusão. Por favor, tente novamente.",module,Magento_Vault
-"Credit Card was successfully removed","Cartão de Crédito foi removido com êxito",module,Magento_Vault
-"My Credit Cards","Os Meus Cartões de Crédito",module,Magento_Vault
 "Card Number","Número do Cartão",module,Magento_Vault
 "Expiration Date","Data de validade",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
-"You have no credit cards.","Você não tem nenhum cartão de crédito.",module,Magento_Vault
 Actions,Ações,module,Magento_Vault
 Delete,Excluir,module,Magento_Vault
 "Operation allowed only in HTTPS","Operação permitida apenas através de HTTPS",module,Magento_Webapi
@@ -4878,7 +4851,6 @@ items,artigos,module,Magento_Checkout
 "Options Details","Detalhes das Opções",module,Magento_Checkout
 Remove,Eliminar,module,Magento_Checkout
 "Cart Subtotal","Subtotal do Carrinho",module,Magento_Checkout
-"No Payment Methods","Não há Modos de Pagamento",module,Magento_Checkout
 "Payment Information","Informação do Pagamento",module,Magento_Checkout
 "No Payment method available.","Não está disponível nenhum Modo de Pagamento.",module,Magento_Checkout
 "You can track your order status by creating an account.","Pode acompanhar o estado da sua encomenda ao criar uma conta.",module,Magento_Checkout
@@ -5380,7 +5352,6 @@ Type,Tipo,module,Magento_Backup
 Action,Ação,module,Magento_Backup
 "Enable this Solution","Ativar esta Solução",module,Magento_Braintree
 "Enable PayPal through Braintree","Ativar PayPal através do Braintree",module,Magento_Braintree
-"Vault enabled","Segurança habilitada",module,Magento_Braintree
 "Basic Braintree Settings","Definições Básicas do Braintree",module,Magento_Braintree
 Title,Título,module,Magento_Braintree
 Environment,Ambiente,module,Magento_Braintree
@@ -5414,12 +5385,12 @@ Environment,Ambiente,module,Magento_Braintree
 Select...,Selecionar...,module,Magento_Braintree
 Status,Estado,module,Magento_Braintree
 "Transaction Type","Tipo de Transação",module,Magento_Braintree
+"Payment Type","Tipo de Pagamento",module,Magento_Braintree
 "PayPal Payment ID","ID de pagamento PayPal",module,Magento_Braintree
+"Created At","Criado em",module,Magento_Braintree
 "Transaction ID","ID da Transação",module,Magento_Braintree
 "Order ID","ID da Encomenda",module,Magento_Braintree
-"Payment Type","Tipo de Pagamento",module,Magento_Braintree
 Type,Tipo,module,Magento_Braintree
-"Created At","Criado em",module,Magento_Braintree
 Amount,Montante,module,Magento_Braintree
 "Settlement Code","Código de Liquidação",module,Magento_Braintree
 "Settlement Response Text","Texto da Resposta de Liquidação",module,Magento_Braintree
@@ -6176,19 +6147,18 @@ Manage,Gerir,module,Magento_Paypal
 "Merchant Location","Localização do Comerciante",module,Magento_Paypal
 "Merchant Country","País do Comerciante",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Se não estiver especificado, será usado o País Pré-definido da Configuração Geral",module,Magento_Paypal
+"PayPal Express Checkout","PayPal Checkout Express",module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.","Adicione outro método de pagamento à sua solução existente ou como uma opção autónoma.",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Escolha uma solução de pagamento completa e segura para o seu negócio.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Pagamentos Pro e Checkout Express",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Definições Básicas - Pagamentos Pro PayPal",module,Magento_Paypal
-"PayPal Payment Gateways","Gateways de Pagamento PayPal",module,Magento_Paypal
-"Process payments using your own internet merchant account.","Processe os pagamentos usando a sua própria conta de comerciante.",module,Magento_Paypal
-"PayPal Express Checkout","PayPal Checkout Express",module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.","Adicione outro método de pagamento à sua solução existente ou como uma opção autónoma.",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Soluções de Pagamento All-in-One PayPal&nbsp;&nbsp;<i>Aceite e processe cartões de crédito e pagamentos PayPal.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Aceite pagamentos com uma página de checkout completamente personalizável.",module,Magento_Paypal
-"PayPal Payment Solutions","Soluções de Pagamento PayPal",module,Magento_Paypal
+"Process payments using your own internet merchant account.","Processe os pagamentos usando a sua própria conta de comerciante.",module,Magento_Paypal
 "Express Checkout","Finalizar Compra Expresso",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Adicione PayPal como método de pagamento adicional à sua página de checkout.",module,Magento_Paypal
 "Required PayPal Settings","Definições de PayPal Necessárias",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account","Email Associado com a Conta de Comerciante PayPal",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","Email Associado com a Conta de Comerciante PayPal (Opcional)",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Não tem uma conta PayPal? Basta inserir o seu endereço de email.",module,Magento_Paypal
 "API Authentication Methods","Métodos de Autenticação da API",module,Magento_Paypal
 "API Username","Nome de Utilizador da API",module,Magento_Paypal
@@ -6270,8 +6240,6 @@ Schedule,Agenda,module,Magento_Paypal
 "Header Border Color","Cor da Border do Cabeçalho",module,Magento_Paypal
 "2-pixel perimeter around the header space.","Perímetro de 2 píxeis em redor do espaço do cabeçalho.",module,Magento_Paypal
 "Page Background Color","Cor de Fundo da Página",module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","Pagamentos Avançados (Inclui Checkout Express)",module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.","Aceite pagamentos com um checkout segundo a norma PCI que mantenha os clientes no seu site.",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Pagamentos Avançados e Checkout Express",module,Magento_Paypal
 Partner,Parceiro,module,Magento_Paypal
 Vendor,Vendedor,module,Magento_Paypal
@@ -6286,22 +6254,17 @@ User,Utilizador,module,Magento_Paypal
 "Require CVV Entry","Exigir Entrada CVV",module,Magento_Paypal
 "Send Email Confirmation","Enviar Confirmação de Email",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Método URL para Cancelar URL e URL de Retorno",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","Link Payflow (Inclui Checkout Express)",module,Magento_Paypal
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Ligue a sua conta de comerciante com um gateway compatível com a norma PCI que permita aos clientes pagar sem deixar o seu site.",module,Magento_Paypal
 "Payflow Link and Express Checkout","Link Payflow e Checkout Express",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","Email Associado com a Conta de Comerciante PayPal (Opcional)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Se não tiver múltiplos utilizadores configurados na sua conta, por favor re-introduza os seus dados de Vendedor/Comerciante aqui.",module,Magento_Paypal
 "Enable Payflow Link","Ativar Payflow Link",module,Magento_Paypal
 "Enable Express Checkout","Ativar Finalizar Compra Expresso",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Definições Básicas - Payflow Link PayPal",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Solução de Pagamentos do Site Pro Hosted",module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.","Aceite pagamentos com um checkout segundo a norma PCI que mantenha os clientes no seu site.",module,Magento_Paypal
 "Payments Pro Hosted Solution","Solução de Pagamentos Pro Hosted",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Definições Básicas - Solução de Pagamentos PayPal Pro Hosted",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Mostrar Checkout Express no passo de informação do Pagamento",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Solução de Pagamentos de Site da Web Pro Hospedado e Finalizar Compra Expresso",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Definições Básicas - Solução de Pagamentos PayPal Pro Hosted",module,Magento_Paypal
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Ligue a sua conta de comerciante com um gateway completamente personalizável que permita aos clientes pagar sem sair do seu site.",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Definições Básicas - PayPal Payflow Pro",module,Magento_Paypal
 "Credit Card Settings","Definições de Cartão de Crédito",module,Magento_Paypal
 "Allowed Credit Card Types","Tipos de Cartão de Crédito Autorizados",module,Magento_Paypal
@@ -6311,7 +6274,6 @@ User,Utilizador,module,Magento_Paypal
 "AVS Zip Does Not Match","Cód. Postal AVS Não Corresponder",module,Magento_Paypal
 "International AVS Indicator Does Not Match","O Indicador Internacional AVS Não Coincide",module,Magento_Paypal
 "Card Security Code Does Not Match","O Código de Segurança do Cartão Não Coincide",module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","Payflow Pro (Inclui Checkout Express)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro e Checkout Express",module,Magento_Paypal
 "Persistent Shopping Cart","Carrinho de Compras Persistente",module,Magento_Persistent
 "General Options","Opções Gerais",module,Magento_Persistent
