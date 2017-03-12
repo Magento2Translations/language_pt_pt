@@ -915,6 +915,7 @@ Catalog,Catálogo,module,Magento_Catalog
 "You saved the product attribute.","Gravou o atributo de produto.",module,Magento_Catalog
 "An attribute with this code already exists.","Já existe um atributo com este código.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Já existe um atributo com o mesmo código (%1).",module,Magento_Catalog
+"The value of Admin must be unique.","O valor d Admin deve ser unico.",module,Magento_Catalog
 "You duplicated the product.","Duplicou o produto.",module,Magento_Catalog
 "This product doesn't exist.","Este produto não existe.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","ID inválido. Deverá ser um valor número maior que 0",module,Magento_Catalog
