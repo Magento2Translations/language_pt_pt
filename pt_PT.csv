@@ -47,6 +47,7 @@ Close,Fechar,module,Magento_AdminNotification
 "Order saving error: %1","Erro na gravação da encomenda: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Por favor escolha um método de pagamento.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","De momento não é possível processar a sua encomenda. Por favor tente novamente mais tarde.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","Ocorreu um erro no servidor. Por favor, tente fazer o pedido novamente.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Cartão de Crédito: xxxx-%1",module,Magento_Authorizenet
 "amount %1","montante %1",module,Magento_Authorizenet
 failed.,falhou.,module,Magento_Authorizenet
