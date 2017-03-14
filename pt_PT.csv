@@ -4124,6 +4124,12 @@ Action,Ação,module,Magento_Shipping
 "Are you sure?","Tem a certeza?",module,Magento_Shipping
 "Qty Shipped","Qtd Enviada",module,Magento_Shipping
 SKU,REF,module,Magento_Shipping
+Status:,Estado:,module,Magento_Shipping
+"Signed by:","Assinado por:",module,Magento_Shipping
+"Delivered to:","Entreguar a:",module,Magento_Shipping
+"Shipped or billed on:","Enviados ou faturado em:",module,Magento_Shipping
+"Service Type:","Tipo de serviço:",module,Magento_Shipping
+Weight:,Peso:,module,Magento_Shipping
 N/A,N/D,module,Magento_Shipping
 Date,Data,module,Magento_Shipping
 Description,Descrição,module,Magento_Shipping
@@ -4434,6 +4440,7 @@ Store,Loja,module,Magento_UrlRewrite
 Custom,Personalizado,module,Magento_UrlRewrite
 "For category","Por categoria",module,Magento_UrlRewrite
 "For product","Por produto",module,Magento_UrlRewrite
+"Create URL Rewrite:","Crie URL Rewrite:",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","De momento não é possível remover a reescrita de URL.",module,Magento_UrlRewrite
 No,Não,module,Magento_UrlRewrite
 "Temporary (302)","Temporário (302)",module,Magento_UrlRewrite
@@ -4555,10 +4562,13 @@ None,Nenhum,module,Magento_Usps
 Variable,Variável,module,Magento_Variable
 "Variable Code","Código da Variável",module,Magento_Variable
 "Variable Name","Nome da Variável",module,Magento_Variable
+"Use Default Variable Values","Usar valores de variável padrão",module,Magento_Variable
 No,Não,module,Magento_Variable
 Yes,Sim,module,Magento_Variable
 "Variable HTML Value","Valor da variável HTML",module,Magento_Variable
+"Variable Plain Value","Valor de variável simples",module,Magento_Variable
 "You deleted the custom variable.","Você excluiu a variável personalizada.",module,Magento_Variable
+"You saved the custom variable.","Você gravou a variável personalizada.",module,Magento_Variable
 "Variable Code must be unique.","Código da Variável deve ser único.",module,Magento_Variable
 "Validation has failed.","Validação falhou.",module,Magento_Variable
 "Insert Variable...","Inserir Variável...",module,Magento_Variable
@@ -6030,6 +6040,7 @@ Configuration,Configuração,module,Magento_Store
 "API interfaces reflection data.","Dados de reflecção das interfaces da API.",module,Magento_Store
 "Database DDL operations","Operações DDL da Base de Dados",module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes.","Resultados das consultas DDL, como descrições de tabelas ou indíces.",module,Magento_Store
+"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","Aplicar desconto sobre o preço incluindo o imposto, é calculado com base no imposto da loja se ""Aplicar os impostos após o desconto"" estiver selecionado.",module,Magento_Tax
 Empty,Vazio,module,Magento_Theme
 "1 column","1 coluna",module,Magento_Theme
 "HTML Head","Head HTML",module,Magento_Theme
