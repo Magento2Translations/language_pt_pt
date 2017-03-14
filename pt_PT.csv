@@ -449,6 +449,8 @@ Authorize,Autorizar,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Por favor insira um número de verificação de cartão válido",module,Magento_Braintree
 ending,"termina em",module,Magento_Braintree
 expires,"expira em",module,Magento_Braintree
+"PayPal Account","Conta PayPal",module,Magento_Braintree
+"PayPal Logo","Logo Paypal",module,Magento_Braintree
 Actions,Ações,module,Magento_Braintree
 Delete,Eliminar,module,Magento_Braintree
 "Percent Discount","Disconto de Percentagem",module,Magento_Bundle
@@ -657,6 +659,7 @@ Promo,Promoção,module,Magento_CatalogRule
 "Unable to remove rule %1","Não foi possível remover a regra %1",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Não é possível reconstruir o índice para uma lista de produtos vazia",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Nós não podemos recriar o índice para um produto indefinido.",module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.","Regra de indexação do catálogo falhou. Veja detalhes no log de exceções.",module,Magento_CatalogRule
 "Percentage discount should be between 0 and 100.","O desconto percentual deve ser entre 0 e 100.",module,Magento_CatalogRule
 "Discount value should be 0 or greater.","O valor de desconto deve ser um valor igual ou superior a 0.",module,Magento_CatalogRule
 "Unknown action.","Acção desconhecida.",module,Magento_CatalogRule
@@ -1336,7 +1339,9 @@ Checkout,"Finalizar Compra",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Por favor concorde com todos os termos e condições antes de confirmar a encomenda.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Algo correu mal durante o processamento da sua encomenda. Por favor, tente novamente mais tarde.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 não estende \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
+"Payment Page","Página de pagamento",module,Magento_Checkout
 "We can't find the product.","Não conseguimos encontrar o produto.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","Encontrámos um pedido inválido para adicionar um produto ao orçamento.",module,Magento_Checkout
 "The product does not exist.","O produto não existe.",module,Magento_Checkout
 "We don't have some of the products you want.","Não temos alguns dos produtos que deseja.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Não temos tantas unidades de alguns produtos quantas pretende.",module,Magento_Checkout
@@ -1345,6 +1350,7 @@ Checkout,"Finalizar Compra",module,Magento_Checkout
 "This quote item does not exist.","Este artigo de orçamento não existe.",module,Magento_Checkout
 "Display number of items in cart","Mostrar o número de itens no carrinho",module,Magento_Checkout
 "Display item quantities","Mostrar as quantidades dos artigos",module,Magento_Checkout
+"An error occurred on the server. Please try to place the order again.","Ocorreu um erro no servidor. Por favor, tente fazer o pedido novamente.",module,Magento_Checkout
 "Shipping address is not set","A morada de envio não está definida",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Não foi possível gravar as informações de envio. Por favor verifique os dados que introduziu.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Não foi encontrada a transportadora com esse método: %1, %2",module,Magento_Checkout
@@ -2072,6 +2078,7 @@ Gender,Sexo,module,Magento_Customer
 Name,Nome,module,Magento_Customer
 "Tax/VAT number","Número de Identificação Fiscal (NIF)",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Não é possível alterar para o modo ""%1""",module,Magento_Deploy
+"Wrong deploy strategy type: %1","Tipo da estratégia de entrega incorreta:% 1",module,Magento_Deploy
 "Format for IDE '%1' is not supported","O formato para IDE '%1' não é suportado",module,Magento_Developer
 "Client side less compilation","Menos compilação do lado do cliente",module,Magento_Developer
 "Server side less compilation","Menos compilação do lado do servidor",module,Magento_Developer
@@ -2161,6 +2168,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Something went wrong while saving the file(s).","Algo correu mal ao gravar o(s) arquivo(s).",module,Magento_Downloadable
 "Provided content must be valid base64 encoded data.","Conteúdo fornecido deve ser codificado com dados base64 válidos.",module,Magento_Downloadable
 "Provided file name contains forbidden characters.","O nome do ficheiro fornecido contém caracteres proibidos.",module,Magento_Downloadable
+"Link file not provided","Link do ficheiro não fornecido",module,Magento_Downloadable
 "Link price must have numeric positive value.","O preço do link deve ter um valor numérico positivo.",module,Magento_Downloadable
 "Number of downloads must be a positive integer.","O número de downloads deve ser um número inteiro positivo.",module,Magento_Downloadable
 "Sort order must be a positive integer.","A ordem de classificação deve ser um número inteiro positivo.",module,Magento_Downloadable
@@ -2169,6 +2177,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Sample URL must have valid format.","O URL da Amostra deve ter um formato válido.",module,Magento_Downloadable
 "Order id cannot be null","O id da encomenda não pode ser null",module,Magento_Downloadable
 "Order item id cannot be null","O id do item da encomenda não pode ser null",module,Magento_Downloadable
+"Provided product must be type 'downloadable'.","Produto fornecido deve ser do tipo 'downloadable'.",module,Magento_Downloadable
 "Provided link information is invalid.","Informações do link fornecido são inválidas.",module,Magento_Downloadable
 "Invalid link type.","Tipo de link inválido.",module,Magento_Downloadable
 "Link title cannot be empty.","O link tem de ter um título.",module,Magento_Downloadable
@@ -2176,6 +2185,7 @@ Unlimited,Ilimitado,module,Magento_Downloadable
 "Provided downloadable link is not related to given product.","O Link para download fornecido não está relacionado com o produto determinado.",module,Magento_Downloadable
 "Cannot delete link with id %1","Não foi possível eliminar o link com id %1",module,Magento_Downloadable
 "Please specify product link(s).","Por favor especifique o(s) link(s) do produto.",module,Magento_Downloadable
+"Sample file not provided","Ficheiro de exemplo não fornecido",module,Magento_Downloadable
 "Provided sample information is invalid.","As informações de amostra fornecidas são inválidas.",module,Magento_Downloadable
 "Invalid sample type.","Tipo de amostra inválido.",module,Magento_Downloadable
 "Sample title cannot be empty.","Título da amostra não pode estar vazio.",module,Magento_Downloadable
@@ -2504,6 +2514,8 @@ Direct,Direto,module,Magento_Fedex
 Indirect,Indireto,module,Magento_Fedex
 Pounds,Libras,module,Magento_Fedex
 Kilograms,Quilogramas,module,Magento_Fedex
+"Invalid response from carrier","Resposta inválida do serviço de transporte",module,Magento_Fedex
+"No available tracking items","Itens de rastreamento indisponíveis",module,Magento_Fedex
 "For some reason we can't retrieve tracking info right now.","De momento não é possível obter informações para o acompanhamento da entrega.",module,Magento_Fedex
 status,estado,module,Magento_Fedex
 "Empty response","Sem resposta",module,Magento_Fedex
@@ -2583,6 +2595,7 @@ Export,Exportar,module,Magento_ImportExport
 "Export Settings","Exportar configurações",module,Magento_ImportExport
 "Entity Type","Tipo de Entidade",module,Magento_ImportExport
 "Export File Format","Exportar Formato de Ficheiro",module,Magento_ImportExport
+"Fields Enclosure","Cerco de campos",module,Magento_ImportExport
 From,De,module,Magento_ImportExport
 To,Para,module,Magento_ImportExport
 "We can't filter an attribute with no attribute options.","Não possível filtrar um atributo sem opções de atributo.",module,Magento_ImportExport
@@ -2600,6 +2613,7 @@ Import,Importar,module,Magento_ImportExport
 "Please specify number of errors to halt import process","Por favor especifique o número de erros necessários para interromper o processo de importação",module,Magento_ImportExport
 "Field separator","Separador de Campo",module,Magento_ImportExport
 "Multiple value separator","Delimitador para campos multi-valor",module,Magento_ImportExport
+"Fields enclosure","Cerco de campos",module,Magento_ImportExport
 "File to Import","Ficheiro a Importar",module,Magento_ImportExport
 "Select File to Import","Selecione ficheiro a importar",module,Magento_ImportExport
 "Images File Directory","Pasta de Ficheiros de Imagem",module,Magento_ImportExport
@@ -3067,13 +3081,17 @@ Region/State,Região/Concelho,module,Magento_OfflineShipping
 None,Nenhum,module,Magento_OfflineShipping
 "Per Order","Por Encomenda",module,Magento_OfflineShipping
 "Per Item","Por Artigo",module,Magento_OfflineShipping
+"Unable to import data","Não é possível importar os dados",module,Magento_OfflineShipping
 "Something went wrong while importing table rates.","Algo correu mal durante a importação das taxas tabeladas.",module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","Não foi possível importar este ficheiro por causa destes erros: %1",module,Magento_OfflineShipping
+"Requested column ""%1"" cannot be resolved","Coluna solicitada ""%1"" não pode ser resolvida",module,Magento_OfflineShipping
+"Column ""%1"" not found","Coluna ""%1"" não foi encontrada",module,Magento_OfflineShipping
 "Please correct Table Rates format in the Row #%1.","Por favor corrija o formato das taxas tabeladas na linha #%1.",module,Magento_OfflineShipping
 "Please correct Country ""%1"" in the Row #%2.","Por favor corrija o País ""%1"" na Linha #%2.",module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","Por favor corrija a Região/Distrito ""%1"" na Linha #%2.",module,Magento_OfflineShipping
 "Please correct %1 ""%2"" in the Row #%3.","Por favor, corrija o %1 ""%2"" na linha #%3.",module,Magento_OfflineShipping
 "Please correct Shipping Price ""%1"" in the Row #%2.","Por favor corrija o Valor dos Portes ""%1"" na Linha #%2.",module,Magento_OfflineShipping
+"Duplicate Row #%1 (duplicates row #%2)","Duplicar linha #% 1 (linhas duplicadas #% 2)",module,Magento_OfflineShipping
 "Please correct Table Rates File Format.","Por favor corrija o formato de ficheiro das taxas tabeladas.",module,Magento_OfflineShipping
 No,Não,module,Magento_OfflineShipping
 "For matching items only","Apenas para itens correspondentes",module,Magento_OfflineShipping
@@ -3557,6 +3575,7 @@ Description,Descrição,module,Magento_ProductVideo
 Role,Função,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube e Vimeo suportados.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","É suportado o serviço Vimeo.<br />Para adicionar um vídeo do YouTube, por favor <a href=""%1""> Insira primeiro a chave de API do YouTube</a>.",module,Magento_ProductVideo
+"Protocol isn't allowed","Protocolo não é permitido",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","Não foi possível obter a informação da imagem de pré-visualização. Por favor verifique a sua ligação e tente novamente.",module,Magento_ProductVideo
 "Add Video","Adicionar vídeo",module,Magento_ProductVideo
 "Browse to find or drag image here","Navegue para selecionar ou arraste a imagem para aqui",module,Magento_ProductVideo
@@ -3598,16 +3617,21 @@ Shipping,Envio,module,Magento_Quote
 "Some of the selected options are not currently available.","Algumas das opções selecionadas não estão disponíveis de momento.",module,Magento_Quote
 "Selected option(s) or their combination is not currently available.","As opções selecionadas ou a sua combinação não está disponível de momento.",module,Magento_Quote
 "Some item options or their combination are not currently available.","Algumas opções de itens ou a sua combinação não estão disponíveis de momento.",module,Magento_Quote
+"Cart %1 does not contain item %2","O carrinho %1 não contém o item %2",module,Magento_Quote
 "Could not save quote","Não foi possível gravar o orçamento",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","O carrinho %1 não contém o item %2",module,Magento_Quote
 "Could not remove item from quote","Não foi possível remover um item do orçamento",module,Magento_Quote
 "The qty value is required to update quote item.","O valor da qtd é necessário para atualizar o item do orçamento.",module,Magento_Quote
+"Minimum order amount is %1","A quantidade mínima para encomendar é %1",module,Magento_Quote
 "Invalid customer id %1","Id de cliente inválido %1",module,Magento_Quote
 "Invalid address id %1","Id da morada inválido %1",module,Magento_Quote
+"Invalid customer address id %1","Id do endereço de cliente inválido %1",module,Magento_Quote
 "Cannot create quote","Não foi possível criar o orçamento",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.","Não foi possível associar o cliente ao carrinho especificado. O carrinho pertence a uma loja diferente.",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Não foi possível associar o cliente ao carrinho. O carrinho não é anónimo.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Não foi possível associar o cliente ao carrinho especificado. O cliente já tem um carrinho ativo.",module,Magento_Quote
+"An error occurred on the server. Please try to place the order again.","Ocorreu um erro no servidor. Por favor, tente fazer o pedido novamente.",module,Magento_Quote
+"Only 1 shipping assignment can be set","Apenas 1 transportadora pode ser definida",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Este preço do item ou quantidade não é válido para efetuar o checkout.",module,Magento_Quote
 "Please check the shipping address information. %1","Por favor verifique a informação da morada de envio. %1",module,Magento_Quote
 "Please specify a shipping method.","Por favor especifique um modo de envio.",module,Magento_Quote
@@ -4526,6 +4550,7 @@ Role,Função,module,Magento_User
 "Please correct the password reset token.","Por favor corrija o token de redefinir a palavra-passe.",module,Magento_User
 "Please specify the correct account and try again.","Por favor especifique a conta correta e tente novamente.",module,Magento_User
 "Your password reset link has expired.","O seu link para repor a palavra-passe expirou.",module,Magento_User
+"We're unable to send the password reset email.","Não conseguimos enviar o email para repor a palavra-passe.",module,Magento_User
 "We'll email you a link to reset your password.","Iremos enviar-lhe um link para redefinir a sua palavra-passe.",module,Magento_User
 "Please correct this email address:","Por favor corrija este endereço de email:",module,Magento_User
 "Please enter an email address.","Por favor introduza um endereço de email.",module,Magento_User
@@ -4602,10 +4627,13 @@ None,Nenhum,module,Magento_Usps
 Variable,Variável,module,Magento_Variable
 "Variable Code","Código da Variável",module,Magento_Variable
 "Variable Name","Nome da Variável",module,Magento_Variable
+"Use Default Variable Values","Usar valores de variável padrão",module,Magento_Variable
 No,Não,module,Magento_Variable
 Yes,Sim,module,Magento_Variable
 "Variable HTML Value","Valor da variável HTML",module,Magento_Variable
+"Variable Plain Value","Valor de variável simples",module,Magento_Variable
 "You deleted the custom variable.","Você excluiu a variável personalizada.",module,Magento_Variable
+"You saved the custom variable.","Você gravou a variável personalizada.",module,Magento_Variable
 "Variable Code must be unique.","Código da Variável deve ser único.",module,Magento_Variable
 "Validation has failed.","Validação falhou.",module,Magento_Variable
 "Insert Variable...","Inserir Variável...",module,Magento_Variable
@@ -4770,6 +4798,8 @@ Edit,Editar,module,Magento_Wishlist
 "Remove item","Remover item",module,Magento_Wishlist
 "Add to Compare","Adicionar à Comparação",module,Magento_Wishlist
 "This Wish List has no Items","Esta Lista de Desejos não tem items",module,Magento_Wishlist
+"%1 has been added to your Wish List.","%1 foi adicionado à sua lista de desejos.",module,Magento_Wishlist
+"Click <a href=""%1"">here</a> to continue shopping.","Clique <a href=""%1"">aqui</a> para continuar a comprar.",module,Magento_Wishlist
 "See Details","Ver Detalhes",module,Magento_Wishlist
 "Options Details","Detalhes das Opções",module,Magento_Wishlist
 "RSS link to %1's wishlist","Link RSS para a lista de desejos de %1",module,Magento_Wishlist
@@ -4888,7 +4918,9 @@ Password:,Palavra-passe:,module,Magento_Customer
 "Checkout out using your account","Efetuar Checkout usando a sua conta",module,Magento_Customer
 "Email Address","Endereço de Email",module,Magento_Customer
 "Currency Update Warnings","Avisos de Atualização de Moeda",module,Magento_Directory
+Footer,Rodapé,module,Magento_Email
 "Thank you, %store_name","Obrigado, %store_name",module,Magento_Email
+Header,Cabeçalho,module,Magento_Email
 "Gift Message (optional)","Mensagem de Oferta (opcional)",module,Magento_GiftMessage
 To:,Para:,module,Magento_GiftMessage
 From:,De:,module,Magento_GiftMessage
@@ -4910,7 +4942,11 @@ Delete,Eliminar,module,Magento_GiftMessage
 "Edit Your Cart","Editar O Seu Carrinho",module,Magento_Payment
 "Sign a billing agreement to streamline further purchases with PayPal.","Assine um acordo de faturação para acelerar as compras futuras com PayPal.",module,Magento_Paypal
 "Continue to PayPal","Continuar para PayPal",module,Magento_Paypal
+"Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Marque ""Lembrar-me"" para aceder ao seu carrinho de compras neste computador, mesmo que não tenha a sessão iniciada.",module,Magento_Persistent
+"Product alerts Cron error","Alertas de produto Cron error",module,Magento_ProductAlert
 "Product alerts cron warnings","Avisos de cron de alertas de produto",module,Magento_ProductAlert
+"Products price changed alert","Alerta para preço dos produtos alterado",module,Magento_ProductAlert
+"Products back in stock alert","Alerta para produtos em stock",module,Magento_ProductAlert
 "Apply Discount Code","Aplicar Código de Desconto",module,Magento_SalesRule
 "Enter discount code","Inserir código de desconto",module,Magento_SalesRule
 "Apply Discount","Aplicar Desconto",module,Magento_SalesRule
@@ -4921,15 +4957,18 @@ Delete,Eliminar,module,Magento_GiftMessage
 Assign,Atribuir,module,Magento_Ui
 Options,Opções,module,Magento_Ui
 Filters,Filtros,module,Magento_Ui
+"Password Reset Confirmation for %name","Confirmação de redefinição de senha para %name",module,Magento_User
 "There was recently a request to change the password for your account.","Houve um pedido recente para alterar a palavra-passe da sua conta.",module,Magento_User
 "If you requested this change, reset your password here:","Se solicitou esta alteração, pode repor a sua palavra-passe aqui:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","Se não solicitou esta alteração, pode ignorar este email e a sua palavra-passe não será alterada.",module,Magento_User
 "Thank you,","Obrigado,",module,Magento_User
+"New %changes for %user_name","Novo %changes para %user_name",module,Magento_User
 "Hello,","Olá,",module,Magento_User
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Recebemos um pedido para alterar a informação seguinte associada à sua conta na loja %store_name: %changes.",module,Magento_User
 "If you have not authorized this action, please contact us immediately at %store_email","Se não autorizou esta ação, por favor contacte-nos imediatamente através do email %store_email",module,Magento_User
 "or call us at %store_phone","ou ligue-nos para o número %store_phone",module,Magento_User
 "Thanks,","Obrigado,",module,Magento_User
+"Take a look at %customer_name's Wish List","Dê uma olhada na lista de desejos do %customer_name",module,Magento_Wishlist
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name quer partilhar esta Lista de Desejos da %store_name consigo:",module,Magento_Wishlist
 "Message from %customer_name:","Mensagem de %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Ver todos os items da Lista de Desejos",module,Magento_Wishlist
@@ -4989,6 +5028,7 @@ Close,Fechar,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","O código postal fornecido parece ser inválido.",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Se acredita que está correto então pode ignorar este aviso.",module,Magento_Checkout
 "Review & Payments","Revisão & Pagamentos",module,Magento_Checkout
+"Select a new payment method","Selecione um novo método de pagamento",module,Magento_Checkout
 Shipping,Envio,module,Magento_Checkout
 "Save Address","Gravar Morada",module,Magento_Checkout
 "We could not detect a size.","Não foi possível detetar um tamanho.",module,Magento_Cms
@@ -5026,6 +5066,11 @@ Allow,Autorizar,module,Magento_Integration
 Done,Concluído,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Não foi possível completar o seu pedido porque ainda não escolheu o método de pagamento.",module,Magento_Multishipping
 "Please choose a payment method.","Por favor, escolha um método de pagamento.",module,Magento_Multishipping
+"Please enter a valid credit card type number.","Por favor insira um número de tipo de cartão de crédito válido.",module,Magento_Payment
+"Please enter a valid credit card number.","Por favor insira um número de cartão de crédito válido.",module,Magento_Payment
+"Incorrect credit card expiration month.","Mês de expiração do cartão de crédito incorrecto.",module,Magento_Payment
+"Incorrect credit card expiration year.","Ano de expiração do cartão de crédito incorrecto.",module,Magento_Payment
+"An error occurred on the server. Please try to place the order again.","Ocorreu um erro no servidor. Por favor, tente fazer o pedido novamente.",module,Magento_Payment
 "Sorry, something went wrong.","Pedimos desculpa, mas algo correu mal.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Pedimos desculpa, algo correu mal. Por favor tente novamente mais tarde.",module,Magento_Paypal
 "Video Error","Erro de Vídeo",module,Magento_ProductVideo
@@ -5323,8 +5368,10 @@ Name,Nome,module,Magento_Backup
 Size(bytes),"Tamanho (bytes)",module,Magento_Backup
 Type,Tipo,module,Magento_Backup
 Action,Ação,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Aceite cartões de crédito / débito e PayPal na sua loja Magento. <br/> Nenhuma configuração ou taxas mensais e os seus clientes nunca iram sair de sua loja para concluir a compra.",module,Magento_Braintree
 "Enable this Solution","Ativar esta Solução",module,Magento_Braintree
 "Enable PayPal through Braintree","Ativar PayPal através do Braintree",module,Magento_Braintree
+"Vault Enabled","Segurança habilitada",module,Magento_Braintree
 "Basic Braintree Settings","Definições Básicas do Braintree",module,Magento_Braintree
 Title,Título,module,Magento_Braintree
 Environment,Ambiente,module,Magento_Braintree
@@ -5349,11 +5396,15 @@ Environment,Ambiente,module,Magento_Braintree
 "Require Customer's Billing Address","Exigir Endereço de Facturação do Cliente",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Permitir a Edição da Morada de Envio Inserida Durante o Checkout no PayPal",module,Magento_Braintree
 "Display on Shopping Cart","Mostrar no Carrinho de Compras",module,Magento_Braintree
+"Skip Order Review","Saltar a Revisão da Encomenda",module,Magento_Braintree
 "3D Secure Verification Settings","Definições de Verificação Segura 3D",module,Magento_Braintree
 "3D Secure Verification","Verificação Segura 3D",module,Magento_Braintree
 "Threshold Amount","Valor Limite",module,Magento_Braintree
 "Verify for Applicable Countries","Verificar para países aplicáveis",module,Magento_Braintree
 "Verify for Specific Countries","Verificar para países específicos",module,Magento_Braintree
+"Dynamic Descriptors","Descritores de dinâmicos",module,Magento_Braintree
+Name,Nome,module,Magento_Braintree
+Phone,Telefone/Telemóvel,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Aplicar filtros para obter resultados. Apenas os primeiros 100 registos serão mostrados na grelha, e poderá fazer download da versão completa do relatório em formato Csv.",module,Magento_Braintree
 Select...,Selecionar...,module,Magento_Braintree
 Status,Estado,module,Magento_Braintree
@@ -5581,6 +5632,7 @@ Details,Detalhes,module,Magento_Catalog
 "Checkout Options","Opções de Finalizar Compra",module,Magento_Checkout
 "Enable Onepage Checkout","Ativar Pagamento numa única Página",module,Magento_Checkout
 "Allow Guest Checkout","Permitir Compras por Visitantes",module,Magento_Checkout
+"Display Billing Address On","Exibir o endereço de facturação em",module,Magento_Checkout
 "Quote Lifetime (days)","Tempo de Vida de Orçamento (dias)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Depois de Adicionar um Produto, Redirecionar para o Carrinho de Compras",module,Magento_Checkout
 "My Cart Link","Link para O Meu Carrinho",module,Magento_Checkout
