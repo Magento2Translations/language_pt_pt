@@ -4853,6 +4853,7 @@ Login,"Iniciar Sessão",module,Magento_Checkout
 item,artigo,module,Magento_Checkout
 items,artigos,module,Magento_Checkout
 "Go to Checkout","Ir para Finalizar Compra",module,Magento_Checkout
+"View and edit cart","Ver e editar carrinho",module,Magento_Checkout
 "See Details","Ver Detalhes",module,Magento_Checkout
 "Options Details","Detalhes das Opções",module,Magento_Checkout
 Remove,Eliminar,module,Magento_Checkout
