@@ -4876,6 +4876,7 @@ edit,editar,module,Magento_Checkout
 Next,Seguinte,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Pedimos desculpa, mas de momento não é possível fornecer um orçamento para esta encomenda",module,Magento_Checkout
 "Order Summary","Resumo da Encomenda",module,Magento_Checkout
+"Item in Cart","Item no Carrinho",module,Magento_Checkout
 "View Details","Visualizar Detalhes",module,Magento_Checkout
 "Contact Form","Formulário de Contacto",module,Magento_Contact
 "Name: %name","Nome: %name",module,Magento_Contact
