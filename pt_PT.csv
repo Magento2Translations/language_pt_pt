@@ -4954,10 +4954,12 @@ Password:,Palavra-passe:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Se não solicitou esta alteração, pode ignorar este email e a sua palavra-passe não será alterada.",module,Magento_Customer
 "Your %store_name password has been changed","A sua %store_name senha foi alterada",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Recebemos um pedido para alterar a informação seguinte associada à sua conta %store_name: palavra-passe.",module,Magento_Customer
+"Checkout out as a new customer","Finalizar compra como um novo cliente",module,Magento_Customer
 "Creating an account has many benefits:","Criar uma conta oferece muitas vantagens:",module,Magento_Customer
 "See order and shipping status","Ver encomenda e estado do envio",module,Magento_Customer
 "Track order history","Acompanhe o histórico da encomenda",module,Magento_Customer
 "Check out faster","Finalizar a compra mais rápido",module,Magento_Customer
+"Checkout out using your account","Efetuar Checkout usando a sua conta",module,Magento_Customer
 "Email Address","Endereço de Email",module,Magento_Customer
 "Currency Update Warnings","Avisos de Atualização de Moeda",module,Magento_Directory
 Footer,Rodapé,module,Magento_Email
@@ -5917,6 +5919,7 @@ Currency,Moeda,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Deixar vazio para obter o valor pré-definido (15 minutos).",module,Magento_Customer
 "Customer Notification","Notificação ao Cliente",module,Magento_Customer
 "Assign a Customer Group","Atribuir um Grupo de Cliente",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Tem a certeza que pretende atribuir os clientes selecionados a um novo grupo?",module,Magento_Customer
 "Customer Grid","Grelha do Cliente",module,Magento_Customer
 "Rebuild Customer grid index","Reconstruir Índice da Grelha do Cliente",module,Magento_Customer
 Group,Grupo,module,Magento_Customer
