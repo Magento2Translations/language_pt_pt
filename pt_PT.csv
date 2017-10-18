@@ -2733,11 +2733,23 @@ Ordered,Encomendada,module,Magento_Sales
 Shipped,Enviada,module,Magento_Sales
 Invoiced,Faturada,module,Magento_Sales
 Order,Encomenda,module,Magento_Sales
+"Sold to:","Venda para:",module,Magento_Sales
+"Ship to:","Enviar para:",module,Magento_Sales
+"Payment Method:","Modo de Pagamento:",module,Magento_Sales
+"Shipping Method:","Modo de Envio:",module,Magento_Sales
+"Total Shipping Charges","Encargos totais de envio",module,Magento_Sales
 Title,Título,module,Magento_Sales
+Number,Número,module,Magento_Sales
+"We found an invalid renderer model.","Encontramos um modelo de processamento inválido.",module,Magento_Sales
+"Please define the PDF object before using.","Por favor, defina o objeto PDF antes de usar.",module,Magento_Sales
 Products,Produtos,module,Magento_Sales
 Qty,Qtd,module,Magento_Sales
+"A PDF object is not specified.","O PDF não foi especificado.",module,Magento_Sales
+"A PDF page object is not specified.","O pagina do PDF não foi especificado.",module,Magento_Sales
 "Excl. Tax","Excluindo impostos",module,Magento_Sales
 "Incl. Tax","Imposto incl.",module,Magento_Sales
+title,título,module,Magento_Sales
+"We cannot register an existing shipment","Nós não podemos registar uma expedição existente",module,Magento_Sales
 City,Cidade,module,Magento_Sales
 Company,Empresa,module,Magento_Sales
 Country,País,module,Magento_Sales
@@ -2777,6 +2789,7 @@ Comment,Comentário,module,Magento_Sales
 "Is Closed","Está fechado",module,Magento_Sales
 "Product Name","Nome do Produto",module,Magento_Sales
 Date,Data,module,Magento_Sales
+"Invoice #","Fatura #",module,Magento_Sales
 "Qty Invoiced","Qtd Faturada",module,Magento_Sales
 Close,Fechar,module,Magento_Sales
 "Qty Shipped","Qtd Enviada",module,Magento_Sales
