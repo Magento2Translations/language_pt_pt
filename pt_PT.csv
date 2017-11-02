@@ -1588,8 +1588,10 @@ Store,Loja,module,Magento_Config
 "Yes (301 Moved Permanently)","Sim (301 Moved Permanently)",module,Magento_Config
 Yes,Sim,module,Magento_Config
 Specified,Especificado,module,Magento_Config
+"Visible section not found.","Seção visível não encontrada.",module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","É necessário um modelo de clone dos campos do formulário para poder clonar os campos",module,Magento_Config
 "Invalid XML in file %1:\n%2","XML inválido no ficheiro %1:\n%2",module,Magento_Config
+"You cannot run this command because the Magento application is not installed.","Não é possível executar este comando porque a aplicação Magento não está instalada.",module,Magento_Config
 "some prefix","um prefixo",module,Magento_Config
 "element label","etiqueta do elemento",module,Magento_Config
 "element hint","dica do elemento",module,Magento_Config
@@ -2122,8 +2124,10 @@ Name,Nome,module,Magento_Customer
 "Value can't be empty","O Valor não pode estar vazio",module,Magento_Deploy
 "A configuration with this path does not exist or is not sensitive","A configuração com este caminho não existe ou não é sensível",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","Não é possível alterar para o modo ""%1""",module,Magento_Deploy
+"Parameter ""importer_class"" must be present.","O parâmetro ""importer_class"" deve estar presente.",module,Magento_Deploy
 "Wrong deploy strategy type: %1","Tipo da estratégia de entrega incorreta:% 1",module,Magento_Deploy
 "some message","alguma mensagem",module,Magento_Deploy
+Exception,Exceção,module,Magento_Deploy
 "Format for IDE '%1' is not supported","O formato para IDE '%1' não é suportado",module,Magento_Developer
 "Client side compilation doesn't work in production mode","Compilação do lado do cliente não funciona no modo de produção",module,Magento_Developer
 "Client side less compilation","Menos compilação do lado do cliente",module,Magento_Developer
@@ -2174,6 +2178,8 @@ Documents,Documentos,module,Magento_Dhl
 "Unable to retrieve shipping label","Não foi possível obter a etiqueta de envio",module,Magento_Dhl
 "Non documents","Não documentos",module,Magento_Dhl
 None,Nenhum,module,Magento_Dhl
+"Security validation of XML document has been failed.","Validação de segurança do documento XML falhou.",module,Magento_Dhl
+"The response is in the wrong format","A resposta está no formato errado",module,Magento_Dhl
 State/Province,Concelho/Distrito,module,Magento_Directory
 "--Please Select--","-- Por favor selecione --",module,Magento_Directory
 "Requested country is not available.","O país solicitado não está disponível.",module,Magento_Directory
@@ -2432,6 +2438,7 @@ label,etiqueta,module,Magento_Eav
 "Wrong entity ID","ID da entidade errado",module,Magento_Eav
 "Wrong attribute set ID","ID de conjunto de atributos errado",module,Magento_Eav
 "Wrong attribute group ID","ID de grupo de atributos errado",module,Magento_Eav
+"An attribute code must not be less than %1 and more than %2 characters.","Um código de atributo não deve ter menos do que %1 nem mais do que %2 de caracteres.",module,Magento_Eav
 "AttributeSet does not exist.","O AttributeSet não existe.",module,Magento_Eav
 hello,olá,module,Magento_Eav
 "Some internal exception message.","Alguma mensagem de exceção interna.",module,Magento_Eav
@@ -4924,6 +4931,8 @@ edit,editar,module,Magento_Checkout
 "View and Edit Cart","Ver e editar carrinho",module,Magento_Checkout
 "View Details","Visualizar Detalhes",module,Magento_Checkout
 "Contact Form","Formulário de Contacto",module,Magento_Contact
+Phone,Telefone,module,Magento_Contact
+Message,Mensagem,module,Magento_Contact
 "Welcome to %store_name","Bem-vindo(a) à %store_name",module,Magento_Customer
 "Welcome to %store_name.","Bem-vindo à %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Para iniciar sessão no nosso site, use estas credenciais durante a compra ou na página <a href=""%customer_url"">A Minha Conta</a>:",module,Magento_Customer
@@ -5052,6 +5061,8 @@ Password:,Palavra-passe:,theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Pedimos desculpa, mas algo correu mal. Por favor contacte o vendedor.",module,Magento_Authorizenet
 "We could not detect a size.","Não foi possível detetar um tamanho.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Não reconhecemos ou suportamos este formato de ficheiro.",module,Magento_Backend
+"Warning message","Mensagem de aviso",module,Magento_Backend
+"This operation can take a long time","Esta operação pode demorar muito tempo",module,Magento_Backend
 "This payment is not available","Este pagamento não está disponível",module,Magento_Braintree
 "Please try again with another form of payment.","Por favor tente novamente com outra forma de pagamento.",module,Magento_Braintree
 "Sorry, but something went wrong.","Pedimos desculpa, mas algo correu mal.",module,Magento_Braintree
@@ -5258,6 +5269,7 @@ Title,Título,module,Magento_Authorizenet
 Content,Conteúdo,module,Magento_Backend
 Elements,Elementos,module,Magento_Backend
 Schedule,Agenda,module,Magento_Backend
+"Content translation","Tradução de conteúdo",module,Magento_Backend
 Settings,Definições,module,Magento_Backend
 Attributes,Atributos,module,Magento_Backend
 "Other Settings","Outras Definições",module,Magento_Backend
@@ -5473,6 +5485,7 @@ Select...,Selecione...,module,Magento_Bundle
 Status,Estado,module,Magento_Bundle
 Thumbnail,"Imagem Miniatura",module,Magento_Bundle
 Type,Tipo,module,Magento_Bundle
+"Special Price","Preço Especial",module,Magento_Bundle
 "Enable CAPTCHA in Admin","Ativar o CAPTCHA na secção de Admin",module,Magento_Captcha
 Font,"Tipo de letra",module,Magento_Captcha
 Forms,Formulários,module,Magento_Captcha
@@ -5535,6 +5548,7 @@ Apply,Aplicar,module,Magento_CatalogRule
 "Discard subsequent rules","Excluir regras subsequentes",module,Magento_CatalogRule
 Yes,Sim,module,Magento_CatalogRule
 No,Não,module,Magento_CatalogRule
+"Catalog Section","Secção de catálogo",module,Magento_CatalogSearch
 "Catalog Search","Pesquisar Catálogo",module,Magento_CatalogSearch
 "Popular Search Terms","Pesquisas Populares",module,Magento_CatalogSearch
 "Minimal Query Length","Comprimento Mínimo da Pesquisa",module,Magento_CatalogSearch
@@ -5917,6 +5931,8 @@ Currency,Moeda,module,Magento_CurrencySymbol
 "Online Customers Options","Opções de Cliente Online",module,Magento_Customer
 "Online Minutes Interval","Intervalo de Minutos Online",module,Magento_Customer
 "Leave empty for default (15 minutes).","Deixar vazio para obter o valor pré-definido (15 minutos).",module,Magento_Customer
+"Customer Data Lifetime","Tempo de vida dos dados de cliente",module,Magento_Customer
+"Please specify value in minutes.","Por favor especifique um número válido de minutos.",module,Magento_Customer
 "Customer Notification","Notificação ao Cliente",module,Magento_Customer
 "Assign a Customer Group","Atribuir um Grupo de Cliente",module,Magento_Customer
 "Are you sure to assign selected customers to new group?","Tem a certeza que pretende atribuir os clientes selecionados a um novo grupo?",module,Magento_Customer
