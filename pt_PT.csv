@@ -4374,6 +4374,7 @@ Code,Código,module,Magento_Tax
 None,Nenhum,module,Magento_Tax
 "Including and Excluding Tax","Incluindo e Excluindo IVA",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Clique no link para <a href=""%1"">ignorar esta notificação</a>",module,Magento_Tax
+"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations.","Com o imposto de cliente aplicado ""Antes do desconto"", o cálculo do desconto final pode não corresponder às expectativas dos clientes.",module,Magento_Tax
 product,produto,module,Magento_Tax
 "Incl. Tax","Imposto incl.",module,Magento_Tax
 "Excl. Tax","Excluindo impostos",module,Magento_Tax
