@@ -2501,6 +2501,9 @@ Next,Seguinte,module,Magento_Review
 "Edit Review '%1'","Editar Comentário '%1'",module,Magento_Review
 Administrator,Administrador,module,Magento_Review
 Guest,Convidado,module,Magento_Review
+"Summary Rating","Resumo da Avaliação",module,Magento_Review
+"Detailed Rating","Avaliação detalhada",module,Magento_Review
+Created,"Criado em",module,Magento_Review
 Title,Título,module,Magento_Review
 Type,Tipo,module,Magento_Review
 SKU,REF,module,Magento_Review
@@ -2510,19 +2513,74 @@ Delete,Eliminar,module,Magento_Review
 "Are you sure?","Tem a certeza?",module,Magento_Review
 "Update Status","Estado da Atualização",module,Magento_Review
 Customer,Cliente,module,Magento_Review
+"Pending Reviews of Customer `%1`","Avaliações pendentes do cliente '%1'",module,Magento_Review
+"Pending Reviews","Avaliações pendentes",module,Magento_Review
+"All Reviews of Customer `%1`","Todas as avaliações do cliente '%1'",module,Magento_Review
+"All Reviews of Product `%1`","Todas as avaliações do produto '%1'",module,Magento_Review
+"All Reviews","Todas as avaliações",module,Magento_Review
 Name,Nome,module,Magento_Review
 "Product Store Name","Nome da Loja do Produto",module,Magento_Review
 Price,Preço,module,Magento_Review
 Quantity,Quantidade,module,Magento_Review
 Websites,Sites,module,Magento_Review
+"Manage Ratings","Gerir Classificações",module,Magento_Review
+"Add New Rating","Adicionar nova classificação",module,Magento_Review
+"Save Rating","Guardar classificação",module,Magento_Review
+"Delete Rating","Apagar classificação",module,Magento_Review
+"Edit Rating #%1","Editar classificação #%1",module,Magento_Review
+"New Rating","Nova classificação",module,Magento_Review
+"Rating Title","Título de classificação",module,Magento_Review
 "Default Value","Valor Pré-definido",module,Magento_Review
+"Rating Visibility","Visibilidade da Classificação",module,Magento_Review
+"Is Active",Ativo,module,Magento_Review
 "Sort Order",Ordenação,module,Magento_Review
+"Rating Information","Informação da classificação",module,Magento_Review
+"Product Reviews","Avaliação do Produto",module,Magento_Review
+"Pending Reviews RSS","RSS de Avaliações Pedentes",module,Magento_Review
+Reviews,Avaliações,module,Magento_Review
+"The review has been deleted.","A avaliação foi eliminada.",module,Magento_Review
+"Something went wrong  deleting this review.","Algo correu mal ao apagar a avaliação.",module,Magento_Review
+"Customer Reviews","Avaliações dos Clientes",module,Magento_Review
+"Edit Review","Editar Avaliação",module,Magento_Review
+"Please select review(s).","Selecione uma avaliação, por favor.",module,Magento_Review
 "A total of %1 record(s) have been deleted.","Um total de %1 registo(s) foram removidos.",module,Magento_Review
 "A total of %1 record(s) have been updated.","Um total de %1 registo(s) foram atualizados.",module,Magento_Review
+"You saved the review.","Avaliação gravada.",module,Magento_Review
+"Something went wrong while saving this review.","Algo correu mal ao gravar esta avaliação.",module,Magento_Review
+"The review was removed by another user or does not exist.","A avaliação foi removida por outro utilizador ou não existe.",module,Magento_Review
+"You deleted the rating.","Apagou a classificação.",module,Magento_Review
+Ratings,Classificações,module,Magento_Review
+"You saved the rating.","Avaliação gravada.",module,Magento_Review
+"My Product Reviews","Minhas Avaliações de Produto",module,Magento_Review
+"Storage key was not set","A chave de armazenamento não foi definida",module,Magento_Review
+Approved,Aprovado,module,Magento_Review
+Pending,Pendente,module,Magento_Review
+"Not Approved","Não aprovado",module,Magento_Review
+"Rating isn't Available","Classificação não disponível",module,Magento_Review
+"Assigned Options","Opções atribuídas",module,Magento_Review
+"Option Title:","Título da opção:",module,Magento_Review
 "Product Name","Nome do Produto",module,Magento_Review
+Rating,Classificação,module,Magento_Review
+"You have submitted no reviews.","Ainda não enviou classificações.",module,Magento_Review
 Back,Voltar,module,Magento_Review
+"My Recent Reviews","Minhas classificações recentes",module,Magento_Review
+"Average Customer Rating:","Avaliação média do cliente:",module,Magento_Review
+"Back to My Reviews","Voltar para as minhas avaliações",module,Magento_Review
+"Be the first to review this product","Seja o primeiro a avaliar este produto",module,Magento_Review
+"Write Your Own Review","Escreva a sua própria avaliação",module,Magento_Review
 "* Required Fields","* Campos Obrigatórios",module,Magento_Review
+"You're reviewing:","Está a avaliar:",module,Magento_Review
 Summary,Resumo,module,Magento_Review
+"Submit Review","Enviar avaliação",module,Magento_Review
+"Add Your Review","Adicione a sua avaliação",module,Magento_Review
+"%1 Review(s)","%1 Avaliações",module,Magento_Review
+"Review by","Avaliado por",module,Magento_Review
+"Posted on","Publicado em",module,Magento_Review
+"Back to Main Product Info","Voltar para a Informação de Produto",module,Magento_Review
+"Average Customer Rating","Avaliação média do cliente",module,Magento_Review
+"Product Rating:","Classificação do Produto:",module,Magento_Review
+"Product Review (submitted on %1):","Avaliação do produto (enviado em %1):",module,Magento_Review
+"Back to Product Reviews","Voltar para as Avaliações do Produto",module,Magento_Review
 "Miscellaneous Feeds","Feeds Diversos",module,Magento_Rss
 "Get Feed","Obter Feed",module,Magento_Rss
 Apply,Aplicar,module,Magento_Rule
@@ -2803,12 +2861,20 @@ Name,Nome,module,Magento_SendFriend
 "* Required Fields","* Campos Obrigatórios",module,Magento_SendFriend
 "Send Email","Enviar E-mail",module,Magento_SendFriend
 Back,Voltar,module,Magento_SendFriend
+"New Shipment for Order #%1","Nova expedição para encomenda #%1",module,Magento_Shipping
+"Submit Shipment","Enviar expedição",module,Magento_Shipping
+"Products should be added to package(s)","Produtos devem ser adicionados ao pacote(s)",module,Magento_Shipping
 "The value that you entered is not valid.","O valor que inseriu não é válido.",module,Magento_Shipping
+"Add Tracking Number","Adicionar o número de expedição",module,Magento_Shipping
 "Custom Value","Valor Personalizado",module,Magento_Shipping
 Add,Adicionar,module,Magento_Shipping
+"Send Tracking Information","Enviar informações de expedição",module,Magento_Shipping
 "Are you sure you want to send a Shipment email to customer?","Tem certeza de que deseja enviar um e-mail de remessa ao cliente?",module,Magento_Shipping
 Print,Imprimir,module,Magento_Shipping
 "the shipment email was sent","foi enviado o e-mail de envio",module,Magento_Shipping
+"the shipment email is not sent","e-mail de expedição não enviado",module,Magento_Shipping
+"Shipment #%1 | %3 (%2)","Expedição #%1 | %3 (%2)",module,Magento_Shipping
+"Create Shipping Label...","Imprimir a Etiqueta de Envio...",module,Magento_Shipping
 "Print Shipping Label","Imprimir a Etiqueta de Envio",module,Magento_Shipping
 "Show Packages","Mostrar Pacotes",module,Magento_Shipping
 "About Your Shipment","Sobre a sua Encomenda",module,Magento_Shipping
@@ -2816,12 +2882,40 @@ Print,Imprimir,module,Magento_Shipping
 "Back to My Orders","Voltar para Os Meus Pedidos",module,Magento_Shipping
 "View Another Order","Ver Outro Pedido",module,Magento_Shipping
 "Cannot add new comment.","Não é possível adicionar novo comentário.",module,Magento_Shipping
+"Please specify a carrier.","Especifique um transportador.",module,Magento_Shipping
 "Please enter a tracking number.","Por favor, digite um número de rastreamento.",module,Magento_Shipping
+Shipments,Expedições,module,Magento_Shipping
+"Cannot add tracking number.","Não é possível adicionar o número de expedição.",module,Magento_Shipping
+"You created the shipping label.","Etiqueta de envio criada.",module,Magento_Shipping
+"An error occurred while creating shipping label.","Ocorreu um erro ao criar a Etiqueta de Envio.",module,Magento_Shipping
+"Cannot send shipment information.","Não é possível enviar informações de expedição.",module,Magento_Shipping
+"There are no shipping labels related to selected orders.","Não existem etiquetas de envio relacionadas com as encomendas selecionadas.",module,Magento_Shipping
+"New Shipment","Nova Expedição",module,Magento_Shipping
+"The shipment has been created.","A expedição foi criada.",module,Magento_Shipping
+"Cannot save shipment.","Não é possível guardar a expedição.",module,Magento_Shipping
+"The order no longer exists.","A encomenda já não existe.",module,Magento_Shipping
+"Cannot do shipment for the order separately from invoice.","Não pode fazer a expedição da encomenda separadamente da fatura.",module,Magento_Shipping
+"Cannot do shipment for the order.","Não é possível enviar a encomenda.",module,Magento_Shipping
 "The shipping module is not available.","O módulo de envio não está disponível.",module,Magento_Shipping
 "This shipping method is not available. Please specify the zip code.","Este método de envio não está disponível. Por favor especifique o código postal.",module,Magento_Shipping
+"All Allowed Countries","Todos os Países Permitidos",module,Magento_Shipping
 "Specific Countries","Países Específicos",module,Magento_Shipping
+Development,Desenvolvimento,module,Magento_Shipping
+Live,"Tempo real",module,Magento_Shipping
+Packages,Pacotes,module,Magento_Shipping
+Package,Pacote,module,Magento_Shipping
 Type,Tipo,module,Magento_Shipping
+Length,Comprimento,module,Magento_Shipping
+"Signature Confirmation","Confirmação de assinatura",module,Magento_Shipping
+Width,Largura,module,Magento_Shipping
+Contents,Conteúdos,module,Magento_Shipping
+"Total Weight","Peso total",module,Magento_Shipping
+Height,Altura,module,Magento_Shipping
+Size,Tamanho,module,Magento_Shipping
+"Items in the Package","Objectos no pacote",module,Magento_Shipping
 Product,Produto,module,Magento_Shipping
+Weight,Peso,module,Magento_Shipping
+"Qty Ordered","Quantidade encomendada",module,Magento_Shipping
 Qty,Qtd,module,Magento_Shipping
 Fixed,Fixo,module,Magento_Shipping
 Percent,"Por cento",module,Magento_Shipping
@@ -4141,6 +4235,7 @@ Action,Ação,module,Magento_Reports
 Report,Relatório,module,Magento_Reports
 Description,Descrição,module,Magento_Reports
 undefined,indefinido,module,Magento_Reports
+"Allow Guests to Write Reviews","Permitir que os convidados escrevam avaliações",module,Magento_Review
 Active,Ativo,module,Magento_Review
 Inactive,Inativo,module,Magento_Review
 "RSS Feeds","Feeds RSS",module,Magento_Rss
