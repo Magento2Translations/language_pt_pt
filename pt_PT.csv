@@ -4,13 +4,13 @@
 Remove,Eliminar,module,Magento_AdminNotification
 "Messages Inbox","Caixa de entrada de mensagens",module,Magento_AdminNotification
 "You have %1 new system messages","Você tem %1 novas mensagens de sistema",module,Magento_AdminNotification
-"You have %1 new system message","Você tem %1 nova mensagem de sistema",module,Magento_AdminNotification
+"You have %1 new system message","Você tem %1 nova(s) mensagem(ns) de sistema",module,Magento_AdminNotification
 "Incoming Message","Nova mensagem",module,Magento_AdminNotification
 close,fechar,module,Magento_AdminNotification
 Notifications,Notificações,module,Magento_AdminNotification
 "The message has been marked as Read.","A mensagem foi marcada como lida.",module,Magento_AdminNotification
 "We couldn't mark the notification as Read because of an error.","Não foi possível marcar a notificação como Lida porque ocorreu um erro.",module,Magento_AdminNotification
-"Please select messages.","Por favor seleccione mensagens.",module,Magento_AdminNotification
+"Please select messages.","Por favor, seleccione as mensagens.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","Foram marcados como lidos um total de %1 registo(s).",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","Um total de %1 registos foram eliminados.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","Não foi possível eliminar as mensagens porque ocorreu um erro.",module,Magento_AdminNotification
@@ -31,7 +31,7 @@ notice,aviso,module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Fomos incapazes de sincronizar um ou mais ficheiros de média. Consulte o ficheiro de log para obter detalhes.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","A sincronização dos repositórios de média foi concluída.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","O seu servidor está configurado incorretamente e permite o acesso não autorizado a ficheiros confidenciais. Por favor contacte o seu fornecedor de alojamento.",module,Magento_AdminNotification
-"System Messages:","Mensagem do Sistema:",module,Magento_AdminNotification
+"System Messages:","Mensagens do sistema:",module,Magento_AdminNotification
 "Critical System Messages","Mensagens Críticas do Sistema",module,Magento_AdminNotification
 "Major System Messages","Mensagens Importantes do Sistema",module,Magento_AdminNotification
 "System messages","Mensagens do sistema",module,Magento_AdminNotification
@@ -5732,7 +5732,7 @@ Close,Fechar,module,Magento_Ui
 Cancel,Cancelar,module,Magento_Vault
 "Show Toolbar","Mostrar Barra de Ferramentas",module,Magento_AdminNotification
 "Show List","Mostrar Lista",module,Magento_AdminNotification
-"Use HTTPS to Get Feed","Use HTTPS para Obter o Feed",module,Magento_AdminNotification
+"Use HTTPS to Get Feed","Use HTTPS para obter o Feed",module,Magento_AdminNotification
 "Update Frequency","Frequência de Atualização",module,Magento_AdminNotification
 "Last Update","Última Atualização",module,Magento_AdminNotification
 Severity,Gravidade,module,Magento_AdminNotification
