@@ -4,13 +4,13 @@
 Remove,Eliminar,module,Magento_AdminNotification
 "Messages Inbox","Caixa de entrada de mensagens",module,Magento_AdminNotification
 "You have %1 new system messages","Você tem %1 novas mensagens de sistema",module,Magento_AdminNotification
-"You have %1 new system message","Você tem %1 nova mensagem de sistema",module,Magento_AdminNotification
+"You have %1 new system message","Você tem %1 nova(s) mensagem(ns) de sistema",module,Magento_AdminNotification
 "Incoming Message","Nova mensagem",module,Magento_AdminNotification
 close,fechar,module,Magento_AdminNotification
 Notifications,Notificações,module,Magento_AdminNotification
 "The message has been marked as Read.","A mensagem foi marcada como lida.",module,Magento_AdminNotification
 "We couldn't mark the notification as Read because of an error.","Não foi possível marcar a notificação como Lida porque ocorreu um erro.",module,Magento_AdminNotification
-"Please select messages.","Por favor seleccione mensagens.",module,Magento_AdminNotification
+"Please select messages.","Por favor, seleccione as mensagens.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","Foram marcados como lidos um total de %1 registo(s).",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","Um total de %1 registos foram eliminados.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","Não foi possível eliminar as mensagens porque ocorreu um erro.",module,Magento_AdminNotification
@@ -31,7 +31,7 @@ notice,aviso,module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Fomos incapazes de sincronizar um ou mais ficheiros de média. Consulte o ficheiro de log para obter detalhes.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","A sincronização dos repositórios de média foi concluída.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","O seu servidor está configurado incorretamente e permite o acesso não autorizado a ficheiros confidenciais. Por favor contacte o seu fornecedor de alojamento.",module,Magento_AdminNotification
-"System Messages:","Mensagem do Sistema:",module,Magento_AdminNotification
+"System Messages:","Mensagens do sistema:",module,Magento_AdminNotification
 "Critical System Messages","Mensagens Críticas do Sistema",module,Magento_AdminNotification
 "Major System Messages","Mensagens Importantes do Sistema",module,Magento_AdminNotification
 "System messages","Mensagens do sistema",module,Magento_AdminNotification
@@ -1543,6 +1543,10 @@ Add,Adicionar,module,Magento_Config
 Enable,Ativar,module,Magento_Config
 Disable,Desativar,module,Magento_Config
 Configuration,Configuração,module,Magento_Config
+"Class for type ""%1"" was not declared","Classe de tipo ""%1"" não foi declarada",module,Magento_Config
+"%1 should implement %2","%1 deve implementar %2",module,Magento_Config
+"The value you set has already been locked. To change the value, use the --%1 option.","O valor escolhido já está bloqueado. Para alterar o valor, utilize a opção --%1.",module,Magento_Config
+"Configuration for path: ""%1"" doesn't exist","O caminho da configuração: ""%1"" não existe",module,Magento_Config
 System,Sistema,module,Magento_Config
 "You saved the configuration.","Gravou a configuração.",module,Magento_Config
 "Something went wrong while saving this configuration:","Algo correu mal ao gravar esta configuração:",module,Magento_Config
@@ -1573,6 +1577,7 @@ System,Sistema,module,Magento_Config
 "Currency ""%1"" is used as %2 in %3.","A moeda ""%1"" é usada como %2 em %3.",module,Magento_Config
 "Please correct the timezone.","Por favor corrija o fuso horário.",module,Magento_Config
 "The file ""%1"" does not exist","Não existe o ficheiro ""%1""",module,Magento_Config
+"The ""%1"" path does not exist","O caminho ""%1"" não existe",module,Magento_Config
 "Always (during development)","Sempre (durante o desenvolvimento)",module,Magento_Config
 "Only Once (version upgrade)","Apenas Uma Vez (atualização de versão)",module,Magento_Config
 "Never (production)","Nunca (produção)",module,Magento_Config
@@ -1592,8 +1597,17 @@ Yes,Sim,module,Magento_Config
 Specified,Especificado,module,Magento_Config
 "Visible section not found.","Seção visível não encontrada.",module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","É necessário um modelo de clone dos campos do formulário para poder clonar os campos",module,Magento_Config
+"%1: Instance of %2 is expected, got %3 instead","%1: Era esperado uma instância do tipo %2, foi injetado %3",module,Magento_Config
 "Invalid XML in file %1:\n%2","XML inválido no ficheiro %1:\n%2",module,Magento_Config
+"'There is no defined type ' .","'Não há nenhum tipo definido ' .",module,Magento_Config
+"'Object is not instance of ' .","'O objecto não é de instância tipo '.",module,Magento_Config
+"Filesystem is not writable.","O sistema de ficheiros não permite escrita.",module,Magento_Config
+"Some error","Algum erro",module,Magento_Config
+"Some message","Alguma mensagem",module,Magento_Config
 "You cannot run this command because the Magento application is not installed.","Não é possível executar este comando porque a aplicação Magento não está instalada.",module,Magento_Config
+"This command is unavailable right now.","Este comando não se encontra disponível no momento.",module,Magento_Config
+"The ""test/test/test"" path does not exists","O caminho ""test/test/test"" não existe",module,Magento_Config
+"error message","mensagem de erro",module,Magento_Config
 "some prefix","um prefixo",module,Magento_Config
 "element label","etiqueta do elemento",module,Magento_Config
 "element hint","dica do elemento",module,Magento_Config
@@ -2135,6 +2149,7 @@ Gender,Sexo,module,Magento_Customer
 Name,Nome,module,Magento_Customer
 "Tax/VAT number","Número de Identificação Fiscal (NIF)",module,Magento_Customer
 "Phone Number","Número de Telefone",module,Magento_Customer
+"Import failed: %1","A importação falhou: %1",module,Magento_Deploy
 "Class for type ""%1"" was not declared","Classe de tipo ""%1"" não foi declarada",module,Magento_Deploy
 "%1 does not implement %2","%1 não implementa %2",module,Magento_Deploy
 "File app/etc/%1 can't be read. Please check if it exists and has read permissions.","Ficheiro app/etc/%1 não pode ser lido. Por favor, verifique a sua existência e permissões de leitura.",module,Magento_Deploy
@@ -2142,7 +2157,12 @@ Name,Nome,module,Magento_Customer
 "Value can't be empty","O Valor não pode estar vazio",module,Magento_Deploy
 "A configuration with this path does not exist or is not sensitive","A configuração com este caminho não existe ou não é sensível",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","Não é possível alterar para o modo ""%1""",module,Magento_Deploy
+"Wrong logger interface specified.","Interface de logs foi mal especificada.",module,Magento_Deploy
+"Hash has not been saved.","A Hash não foi gravada.",module,Magento_Deploy
 "Parameter ""importer_class"" must be present.","O parâmetro ""importer_class"" deve estar presente.",module,Magento_Deploy
+"The configuration file has changed. Run app:config:import or setup:upgrade command to synchronize configuration.","O ficheiro de configuração foi alterado. Execute o comando app:config:import ou setup:upgrade para sincronizar a configuração.",module,Magento_Deploy
+"Wrong type specified: '%1'","Tipo mal especificado: '%1'",module,Magento_Deploy
+"Wrong queue type specified.","Fila mal especificada.",module,Magento_Deploy
 "Wrong deploy strategy type: %1","Tipo da estratégia de entrega incorreta:% 1",module,Magento_Deploy
 "Some error","Um erro",module,Magento_Deploy
 "some message","alguma mensagem",module,Magento_Deploy
@@ -2458,6 +2478,7 @@ label,etiqueta,module,Magento_Eav
 "Wrong attribute set ID","ID de conjunto de atributos errado",module,Magento_Eav
 "Wrong attribute group ID","ID de grupo de atributos errado",module,Magento_Eav
 "An attribute code must not be less than %1 and more than %2 characters.","Um código de atributo não deve ter menos do que %1 nem mais do que %2 de caracteres.",module,Magento_Eav
+"Attribute with ID: ""%1"" does not exist","O atributo com id: ""%1"" não existe",module,Magento_Eav
 "AttributeSet does not exist.","O AttributeSet não existe.",module,Magento_Eav
 hello,olá,module,Magento_Eav
 "Some internal exception message.","Alguma mensagem de exceção interna.",module,Magento_Eav
@@ -2616,6 +2637,7 @@ Cancel,Cancelar,module,Magento_GiftMessage
 "Gift Options","Opções de Presente",module,Magento_GiftMessage
 "Gift Message","Mensagem da Oferta",module,Magento_GiftMessage
 "Do you have any gift items in your order?","Pretende oferecer algum item da sua encomenda?",module,Magento_GiftMessage
+"Add Gift Options","Adicionar Opções de Oferta",module,Magento_GiftMessage
 "Gift Options for the Entire Order","Opções de Oferta para a Encomenda Inteira",module,Magento_GiftMessage
 "Leave this box blank if you don't want to leave a gift message for the entire order.","Deixe esta caixa em branco se não quiser deixar uma mensagem de oferta para toda a encomenda.",module,Magento_GiftMessage
 "Gift Options for Individual Items","Opções de Oferta para Itens Individuais",module,Magento_GiftMessage
@@ -2623,6 +2645,7 @@ Cancel,Cancelar,module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.","Deixe a caixa em branco se não quiser deixar uma mensagem de oferta para esse item.",module,Magento_GiftMessage
 "Add Gift Options for the Entire Order","Adicionar Opções de Oferta para a Encomenda Inteira",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for this address.","Pode deixar esta caixa em branco se não quiser deixar uma mensagem de oferta para esta morada.",module,Magento_GiftMessage
+"Add Gift Options for Individual Items","Adicionar Opções de Oferta para Itens Individuais",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for the item.","Pode deixar esta caixa em branco se não quiser deixar uma mensagem de oferta para o item.",module,Magento_GiftMessage
 Dynamic,Dinâmico,module,Magento_GoogleAdwords
 Constant,Constante,module,Magento_GoogleAdwords
@@ -2681,6 +2704,8 @@ Download,Transferência,module,Magento_ImportExport
 Import,Importar,module,Magento_ImportExport
 "Import Settings","Importar Definições",module,Magento_ImportExport
 "Import Behavior","Comportamento de Importação",module,Magento_ImportExport
+"Stop on Error","Parar caso ocorra um erro",module,Magento_ImportExport
+"Skip error entries","Ignorar registos com erros",module,Magento_ImportExport
 "Allowed Errors Count","Número de Erros Permitidos",module,Magento_ImportExport
 "Please specify number of errors to halt import process","Por favor especifique o número de erros necessários para interromper o processo de importação",module,Magento_ImportExport
 "Field separator","Separador de Campo",module,Magento_ImportExport
@@ -2706,6 +2731,7 @@ Status,Estado,module,Magento_ImportExport
 "Data validation failed. Please fix the following errors and upload the file again.","A validação de dados falhou. Por favor, corrija os seguintes erros e faça upload do ficheiro novamente.",module,Magento_ImportExport
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Linhas verificadas: %1, entidades verificadas: %2, linhas inválidas: %3, número de erros total: %4",module,Magento_ImportExport
 "This file is empty. Please try another one.","Este ficheiro encontra-se vazio. Por favor tente outro.",module,Magento_ImportExport
+"Please fix errors and re-upload file or simply press ""Import"" button to skip rows with errors","Por favor, corrija os erros e faça upload do ficheiro ou simplesmente pressione o botão ""Importar"" para ignorar linhas com erros",module,Magento_ImportExport
 "File is valid! To start import process press ""Import"" button","O ficheiro é válido! Para iniciar a importação carregue no botão ""Importar""",module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","O ficheiro é válido, mas não foi possível importá-lo por algum motivo.",module,Magento_ImportExport
 "Show more","Mostrar mais",module,Magento_ImportExport
@@ -2835,6 +2861,7 @@ Reauthorize,"Voltar a Autorizar",module,Magento_Integration
 "Integration '%1' has been sent for re-authorization.","A integração '%1' foi enviada para re-autorização.",module,Magento_Integration
 "Integration '%1' has been sent for activation.","A Integração '%1' foi enviada para activação.",module,Magento_Integration
 "A consumer with ID %1 does not exist","Não existe um consumidor com ID %1",module,Magento_Integration
+title,título,module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Não inseriu os seus detalhes corretamente ou a sua conta está temporariamente desativada.",module,Magento_Integration
 "This user has no tokens.","Este utilizador não tem tokens.",module,Magento_Integration
 "The tokens could not be revoked.","Os tokens não podem ser revogados.",module,Magento_Integration
@@ -5782,7 +5809,7 @@ Close,Fechar,module,Magento_Ui
 Cancel,Cancelar,module,Magento_Vault
 "Show Toolbar","Mostrar Barra de Ferramentas",module,Magento_AdminNotification
 "Show List","Mostrar Lista",module,Magento_AdminNotification
-"Use HTTPS to Get Feed","Use HTTPS para Obter o Feed",module,Magento_AdminNotification
+"Use HTTPS to Get Feed","Use HTTPS para obter o Feed",module,Magento_AdminNotification
 "Update Frequency","Frequência de Atualização",module,Magento_AdminNotification
 "Last Update","Última Atualização",module,Magento_AdminNotification
 Severity,Gravidade,module,Magento_AdminNotification
@@ -6671,12 +6698,18 @@ Mode,Modo,module,Magento_Indexer
 Status,Estado,module,Magento_Indexer
 Updated,Atualizado,module,Magento_Indexer
 Extensions,Extensões,module,Magento_Integration
+"Access Token Expiration","Expiração de Token de acesso",module,Magento_Integration
+"Customer Token Lifetime (hours)","Prazo de validade do Token do cliente (horas)",module,Magento_Integration
+"Admin Token Lifetime (hours)","Prazo de validade do Token do cliente (horas)",module,Magento_Integration
 "Cleanup Settings","Definições de Limpeza",module,Magento_Integration
 "Cleanup Probability","Probabilidade de Limpeza",module,Magento_Integration
 "Expiration Period","Período de Expiração",module,Magento_Integration
 "Consumer Settings","Definições do Consumidor",module,Magento_Integration
 "OAuth consumer credentials HTTP Post maxredirects","Maxredirects de pedidos HTTP Post com as credenciais do consumidor OAuth",module,Magento_Integration
 "OAuth consumer credentials HTTP Post timeout","Timeout dos pedidos HTTP Post com as credenciais do consumidor OAuth",module,Magento_Integration
+"Authentication Locks","Bloqueios de autenticação",module,Magento_Integration
+"Maximum Login Failures to Lock Out Account","Número Máximo de Tentativas Falhadas de Login para Bloquear Conta",module,Magento_Integration
+"Lockout Time (seconds)","Tempo de Bloqueio (segundos)",module,Magento_Integration
 "Integrations Configuration","Configuração de Integrações",module,Magento_Integration
 "Integration configuration file","Ficheiro de configuração de integração",module,Magento_Integration
 "Integrations API Configuration","Configuração da API das Integrações",module,Magento_Integration
