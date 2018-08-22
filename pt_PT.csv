@@ -4403,6 +4403,7 @@ Reports,Relatórios,module,Magento_Search
 "Invalid Sender Email","E-mail do remetente inválido",module,Magento_SendFriend
 "Please enter a message.","Por favor escreva uma mensagem.",module,Magento_SendFriend
 "Please specify at least one recipient.","Por favor, especifique pelo menos um destinatário.",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Por favor insira um endereço de e-mail correto para o destinatário.",module,Magento_SendFriend
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
 "Please define a correct product instance.","Por favor defina uma instância de produto correto.",module,Magento_SendFriend
 "IP Address","Endereço de IP",module,Magento_SendFriend
