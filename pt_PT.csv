@@ -4509,6 +4509,7 @@ None,Nenhum,module,Magento_Security
 "Invalid Sender Email","E-mail do remetente inválido",module,Magento_SendFriend
 "Please enter a message.","Por favor escreva uma mensagem.",module,Magento_SendFriend
 "Please specify at least one recipient.","Por favor, especifique pelo menos um destinatário.",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Por favor insira um endereço de e-mail correto para o destinatário.",module,Magento_SendFriend
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
 "Please define a correct product instance.","Por favor defina uma instância de produto correto.",module,Magento_SendFriend
 "IP Address","Endereço de IP",module,Magento_SendFriend
@@ -5503,6 +5504,7 @@ Delete,Eliminar,module,Magento_GiftMessage
 "Your shipping confirmation is below. Thank you again for your business.","A confirmação de envio encontra-se na secção seguinte. Agradecemos novamente a sua compra.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","A sua Expedição #%shipment_id para a Encomenda #%order_id",module,Magento_Sales
 "Update to your %store_name shipment","Atualização de expedição em %store_name",module,Magento_Sales
+"Welcome, %name","Bem-vindo(a), %name",module,Magento_SendFriend
 "See our Shipping Policy","Consulte a nossa política de expedição",module,Magento_Shipping
 "Sitemap generate Warnings","O Mapa do site gerou Avisos",module,Magento_Sitemap
 "Sitemap Generation Warnings","Avisos de geração do Mapa do Site",module,Magento_Sitemap
