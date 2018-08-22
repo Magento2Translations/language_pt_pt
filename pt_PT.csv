@@ -3073,6 +3073,7 @@ Close,Fechar,module,Magento_Sales
 "We found some problems with the data.","Encontrámos alguns problemas com os dados.",module,Magento_SendFriend
 "Some emails were not sent.","Alguns e-mails não foram enviados.",module,Magento_SendFriend
 "Invalid Sender Email","E-mail do remetente inválido",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Por favor insira um endereço de e-mail correto para o destinatário.",module,Magento_SendFriend
 "No more than %1 emails can be sent at a time.","Não podem ser enviados mais do que %1 e-mails de cada vez.",module,Magento_SendFriend
 Name,Nome,module,Magento_SendFriend
 "* Required Fields","* Campos Obrigatórios",module,Magento_SendFriend
